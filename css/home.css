@@ -1,0 +1,23 @@
+#destaque-fotos {
+    height: 410px;
+    background-color: #5F4B3F;
+    overflow: hidden;
+}
+
+#img-eu-quero img {
+    margin-left: -60px;
+}
+
+.img-quero-mas-nao-moro {
+    position: absolute;
+}
+
+#home-casa > div {
+    margin: 0;
+    margin-top: 50px;
+}
+
+#home-casa img {
+    width: 100%;
+    margin-left: 30px;
+}

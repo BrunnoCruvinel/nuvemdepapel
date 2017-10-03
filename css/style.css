@@ -1,0 +1,236 @@
+@import "menu.css";
+@import "home.css";
+@import "depoimentos.css";
+@import "footer.css";
+@import "slide-arquitetura.css";
+@import "fotos.css";
+@import "parceiros.css";
+@import "produtos.css";
+@import "blog.css";
+
+@font-face {
+    font-family: Foxinthesnow;
+    src: url(../fonts/fox_in_the_snow.ttf);
+}
+
+.text-color-verde {
+    color: #ACCC52;
+}
+
+.text-color-rosa {
+    color: #F2999F;
+}
+
+.text-color-marrom {
+    color: #5F4B3F;
+}
+
+.text-color-branco {
+    color: #fff;
+}
+
+.text-color-azul {
+    color: #95d4e6;
+}
+
+.bg-color-azul {
+    background-color: #B3DFEB;
+}
+
+.bg-color-verde {
+    background-color: #ADCB52;
+}
+
+.bg-color-rosa {
+    background-color: #F299A2;
+}
+
+.bg-color-marrom {
+    background-color: #5F4B3F;
+}
+
+.text-normal {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.text-grande, .text-medio, .text-pequeno, .text-minimo {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
+    margin: 10px 0 10px 0;
+}
+
+.text-grande {
+    font-size: 60px;
+}
+
+.text-medio {
+    font-size: 35px;
+}
+
+.text-pequeno {
+    font-size: 25px;
+}
+
+.text-minimo {
+    font-size: 20px;
+}
+
+.text-pequeno-destaque {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.titulo-grande, .titulo-medio, .titulo-pequeno, .titulo-medio-pequeno {
+    font-family: Foxinthesnow;
+    font-weight: lighter;
+    margin-bottom: 40px;
+    z-index: 999;
+}
+
+.titulo-grande {
+    font-size: 60px;
+}
+
+.titulo-medio {
+    font-size: 40px;
+}
+
+.titulo-medio-pequeno {
+    font-size: 30px;
+}
+
+.titulo-pequeno {
+    font-size: 25px;
+}
+
+.titulo-blog {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.post-blog {
+    border: 2px dashed #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.menu-destaque {
+    position: relative;
+}
+
+.menu-destaque:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    top: 0;
+    background-image: url("../img/tracejado_azul.png");
+    background-repeat: repeat-x;
+
+}
+
+.menu-destaque:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    background-image: url("../img/tracejado_azul.png");
+    background-repeat: repeat-x;
+}
+
+.espacamento_top {
+    padding-top: 60px;
+}
+
+.espacamento_bottom {
+    padding-bottom: 60px;
+}
+
+.espacamento_top_pequeno {
+    padding-top: 20px;
+}
+
+.espacamento_bottom_pequeno {
+    padding-bottom: 20px;
+}
+
+.destaque-lista:after {
+    text-decoration: blink;
+    border-radius:100%;
+    border: 10px solid red;
+    width:100px;
+    height:100px;
+    background-color:purple;
+}
+
+
+.arquitetura-que-fazemos img {
+    padding: 25px;
+    max-width: 280px;
+}
+
+
+.espacamento-texto-paragrafo {
+    margin: 30px 0 30px 0;
+}
+
+.nuvem-pijama:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url("../img/destaque_titulo_1.png") no-repeat;
+    z-index: 2;
+    top: -22px;
+    left: -13px;
+}
+
+.nuvem-azul-capacete:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url("../img/destaque_titulo_azul_2.png") no-repeat;
+    z-index: 2;
+    top: -22px;
+    left: -13px;
+}
+
+.nuvem-branca-capacete:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url("../img/destaque_titulo_2.png") no-repeat;
+    z-index: 2;
+    top: -22px;
+    left: -13px;
+}
+
+.nuvem-aniversario:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url("../img/destaque_titulo_3.png") no-repeat;
+    z-index: 2;
+    top: -49px;
+    left: -9px;
+}
+
+.ajusta-nuvem-home {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

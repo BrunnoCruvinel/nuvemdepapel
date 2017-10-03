@@ -1,0 +1,22 @@
+#footer {
+    min-height: 367px;
+}
+
+.footer-contato {
+    margin: 0 0 70px 0;
+}
+
+.footer-redesocial img {
+    margin: 10px;
+}
+
+.footer-area-ebook {
+    border: 2px dashed #fff;
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 55px;
+}
+
+#footer-instagram {
+    margin: 0;
+}

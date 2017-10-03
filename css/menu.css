@@ -1,0 +1,130 @@
+#menu {
+    z-index: 99999999;
+}
+
+#menu {
+    min-height: 176px;
+}
+
+#menu .menu-pesquisa {
+    height: 85px;
+    text-align: right;
+    position: relative;
+}
+
+#menu .menu-pesquisa input {
+    width: 100%;
+    height: 41px;
+    display: block;
+    position: relative;
+    top: 16px;
+    background: url("../img/pesquisar-lupa.png") no-repeat right 7px center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #95d4e6;
+    font-family: Foxinthesnow, cursive;
+    color: #5F4B3F;
+    font-size: 18px;
+}
+
+#menu-redesociais {
+    position: relative;
+    transform: translateY(100%);
+}
+
+#menu-redesociais img {
+    margin: 0 20px 0 20px;
+}
+
+#menu .menu-items .menu-lista {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#menu .menu-items ul {
+    text-align: right;
+    margin: 14px 0 10px 0;
+}
+
+#menu .menu-items ul li {
+    display: inline;
+}
+
+#menu .menu-items ul li:not(:last-of-type) {
+    padding: 0 38px 0 0px;
+}
+
+#menu .menu-items ul li a {
+    text-decoration: none;
+    color: #F2999F;
+    font-family: 'Amatic SC', cursive;
+}
+
+#menu .menu-items ul li a:hover {
+    text-decoration: none;
+    color: #ACCC52;
+    cursor: pointer;
+}
+
+.botao-menu-responsivo {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .logo-menu {
+        display: none;
+    }
+
+    .menu-items ul.menu-item {
+        display: none;
+    }
+
+    #menu .menu-items .menu-lista {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .botao-menu-responsivo {
+        display: block;
+        font-size: 32px;
+        padding: 5px 0 5px 0;
+        color: #95d4e6;
+    }
+
+    #menu .menu-items ul li:not(:last-of-type) {
+        padding: 0;
+    }
+
+    .menu-items .logo {
+        cursor: pointer;
+    }
+
+    .menu-items ul.menu-item > li {
+        float: none;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+
+    .menu-items.menu-responsive ul.menu-item > li:hover {
+        /*background-color: #F7b9c7;*/
+    }
+
+    .menu-items.menu-responsive ul.menu-item > li > a {
+        width: 100%;
+        position: relative;
+        display: block;
+    }
+
+    .menu-items.menu-responsive > .container {
+        position: relative;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+

@@ -1,0 +1,75 @@
+#componente-depoimentos {
+    z-index: 1;
+}
+
+#componente-depoimentos .item-slide {
+    padding: 30px;
+    border: 2px dashed #fff;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 0 80px 0;
+}
+
+.owl-stage-outer {
+
+}
+
+/*#componente-depoimentos .item-slide:after {
+    content: '';
+    background: url("../img/nuvem_depoimentos.png");
+    position: absolute;
+    width: 280px;
+    height: 200px;
+    top: 70px;
+    right: 0;
+    background-repeat: no-repeat;
+    z-index: 99991999 !important;
+}*/
+
+#componente-depoimentos .usuario-depoimento {
+    position: absolute;
+    right: -135px;
+    top: 40px;
+    z-index:3;
+}
+
+#componente-depoimentos .usuario-depoimento-nome {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    font-weight: 700;
+    padding: 0 30px 0 30px;
+}
+
+#componente-depoimentos .item-slide img.usuario-depoimento {
+    width: 15%;
+}
+
+#componente-depoimentos .owl-dots {
+    position: absolute;
+    margin-top: -60px !important;
+    margin-left: 20% !important;
+}
+
+/* ajuste carousel*/
+#componente-depoimentos.owl-theme .owl-dots .owl-dot span {
+    background: url("../img/carrosel_marcador_branco.png") no-repeat !important;
+    width: 30px !important;
+    height: 30px !important;
+    margin: 5px 7px;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity 200ms ease;
+    border-radius: 0 !important;
+}
+#componente-depoimentos.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: url("../img/carrosel_marcador_marrom.png")  no-repeat !important;
+}
+
+#componente-depoimentos .owl-stage-outer {
+    width: 100%;
+}
