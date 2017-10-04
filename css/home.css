@@ -1,7 +1,52 @@
 #destaque-fotos {
     height: 410px;
-    background-color: #5F4B3F;
     overflow: hidden;
+    margin-bottom: 0px;
+}
+
+#destaque-fotos li {
+  float: left;
+  height: 100%;
+  padding: 5%;
+}
+#destaque-fotos li img{
+  margin-top: 100px;
+  position: relative;
+}
+
+
+#slideNuvem .item-slide {
+    width: 100%;
+}
+
+#slideNuvem .owl-dots {
+    position: absolute;
+    margin-top: -30px !important;
+    margin-left: 75px !important;
+}
+
+/* ajuste carousel*/
+#slideNuvem .owl-dots .owl-dot span {
+    background: url("../img/carrosel_marcador_branco.png") no-repeat !important;
+    width: 30px !important;
+    height: 30px !important;
+    margin: 5px 0px;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity 200ms ease;
+    border-radius: 0 !important;
+}
+#slideNuvem .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: url("../img/carrosel_marcador_marrom.png")  no-repeat !important;
+    margin-top: -40px;
+}
+
+#slideNuvem .owl-stage-outer {
+    width: 100%;
+}
+
+.backNuvem{
+  background: url('../img/backNuvem.png');
 }
 
 #img-eu-quero img {

@@ -1,6 +1,6 @@
 <?php require "header.php" ?>
 
-<section id="produtos">
+<section id="produtos" class="bg-nuvem-produtos">
     <div class="container">
         <div class="row">
             <div class="col-md-12">

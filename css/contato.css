@@ -1,7 +1,61 @@
-#produtos #componente-depoimentos .item-slide {
-    border: 2px dashed #5F4B3F;
+.input-customizado {
+    width: 85%;
+    max-width: 420px;
+    height: 50%;
+    border: 1px solid transparent;
+    margin: 10px 10px 10px 20px;
+    top: -2px;
+    bottom: 0;
+    left: 20px;
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    font-family: Foxinthesnow, cursive;
+    font-size: 20px;
+    font-weight: 600;
 }
 
-#produtos .nao-moro {
+.textarea-customizado {
+    width: 80%;
+    max-width: 500px;
+    height: 85%;
+    border: 1px solid transparent;
+    margin: 0 10px 10px 20px;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    margin: auto;
     position: absolute;
+    z-index: 1;
+    font-family: Foxinthesnow, cursive;
+    font-size: 20px;
+    font-weight: 600;
+    resize: none;
+}
+
+#contato-nome, #contato-email, #contato-telefone, .blog-pesquisar {
+    position: relative;
+    margin-top: 15px;
+    margin-top: 15px;
+
+}
+
+.input-customizado:hover {
+    border: none;
+}
+
+.input-customizado:focus, .textarea-customizado:focus {
+    outline: none;
+}
+
+.vamor-conversar:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 229px;
+    height: 165px;
+    background: url("../img/vamos-conversar.png") no-repeat;
+    z-index: 99999;
+    top: -131px;
+    left: -28px;
 }

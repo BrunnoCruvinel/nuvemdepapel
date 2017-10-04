@@ -66,3 +66,10 @@
 #slide-arquitetura .item-arquitetura .item-slide {
     border-color: #5F4B3F;
 }
+
+#slide-arquitetura #componente-depoimentos .owl-dots {
+    position: relative;
+    display: block;
+    top: 0;
+    left: -30%;
+}

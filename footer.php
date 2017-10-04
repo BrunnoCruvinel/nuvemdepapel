@@ -44,7 +44,7 @@
                         Instagram
                     </div>
                    <div>
-                       <img src="img/instagram.png" alt="">
+                       <img class="img-responsive" src="img/instagram.png" alt="">
                    </div>
                </div>
            </div>

@@ -1,6 +1,6 @@
 <?php require "header.php" ?>
 
-<section id="arquitetura">
+<section id="arquitetura" class="bg-nuvem-arquitetura">
     <div class="container">
         <div class="row espacamento_top">
             <div class="col-md-12 titulo-grande text-color-marrom">

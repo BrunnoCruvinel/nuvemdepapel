@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="  https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
     <link rel="stylesheet" href="js/plugins/owl-carousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="js/plugins/owl-carousel/dist/assets/owl.theme.default.css">
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">

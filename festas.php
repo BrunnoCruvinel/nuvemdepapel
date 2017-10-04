@@ -103,7 +103,7 @@
                             </div>
                         </div>
                         <div class="col-md-7 col-sm-7 col-xs-12 col text-right">
-                            <img class="img-responsive" src="img/papelaria.png" alt="">
+                            <img class="img-responsive" src="img/fotos-papelaria.png" alt="">
                         </div>
                     </div>
                 </div>

@@ -1,41 +1,26 @@
 <?php require "header.php"; ?>
 
 
-  <section id="destaque-fotos">
-    <div class="row">
-        <div class="col-md-4">
-            <div class="row ajusta-nuvem-home">
-                <div class="col-md-12 text-center">
-                    <img src="img/nuvem-aniversario.png" alt="">
-                </div>
-            </div>
-            <img class="" src="img/imagem_destaque_1.png" alt="">
-        </div>
-        <div class="col-md-4">
-            <div class="row ajusta-nuvem-home">
-                <div class="col-md-12 text-center">
-                    <img src="img/nuvem-batismo.png" alt="">
-                </div>
-            </div>
-            <img src="img/imagem_destaque_2.png" alt="">
-        </div>
-        <div class="col-md-4">
-            <div class="row ajusta-nuvem-home">
-                <div class="col-md-12 text-center">
-                    <img src="img/nuvem-cha.png" alt="">
-                </div>
-            </div>
-            <img src="img/imagem_destaque_3.png" alt="">
-        </div>
-    </div>
+  <section >
+    <ul id="destaque-fotos" class="row">
+        <li class="text-right" style="width:37.5%;background:url('img/imagem_destaque_1.png') center center;background-size:cover;">
+            <img src="img/nuvem-aniversario.png">
+        </li>
+        <li class="text-center" style="width:25%;background:url('img/imagem_destaque_2.png') center center;background-size:cover;">
+            <img src="img/batismo.png">
+        </li>
+        <li class="text-left" style="width:37.5%;background:url('img/imagem_destaque_3.png') center center;background-size:cover;">
+            <img src="img/cha.png">
+        </li>
+    </ul>
   </section>
 
-<section class="espacamento_top bg-color-azul">
+<section class="espacamento_top bg-color-azul backNuvem">
     <div class="container">
         <div id="festa-pijama" class="row">
             <div class="col-md-6">
                 <div class="titulo-grande text-color-marrom">
-                    <span class="nuvem-pijama">Festa do pijama</span>
+                    <h1 class="nuvem-azul-capacete">Festa do pijama</h1>
                 </div>
                 <div class="text-color-marrom text-medio">
                     QUE CRIANÇA NÃO SONHA COM O DIA EM QUE TODOS OS SEUS MELHORES AMIGOS VÃO PODER DORMIR NA SUA CASA?
@@ -45,6 +30,42 @@
                 </div>
             </div>
             <div class="col-md-6">
+              <div id="slideNuvem" class="owl-carousel owl-theme">
+
+                  <div class="item-slide">
+                      <div class="row">
+                          <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+
+
+                                  <img src="../img/nuvemSlide.png" alt="">
+
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="item-slide">
+                      <div class="row">
+                          <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+
+
+                                  <img src="../img/nuvemSlide.png" alt="">
+
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="item-slide">
+                      <div class="row">
+                          <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+
+
+                                  <img src="../img/nuvemSlide.png" alt="">
+
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
 
             </div>
         </div>
