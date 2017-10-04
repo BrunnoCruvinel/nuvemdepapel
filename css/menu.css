@@ -3,13 +3,14 @@
 }
 
 #menu {
-    min-height: 176px;
+    min-height: 165px;
 }
 
 #menu .menu-pesquisa {
     height: 85px;
     text-align: right;
     position: relative;
+	top: 8px;
 }
 
 #menu .menu-pesquisa input {
@@ -44,7 +45,7 @@
 
 #menu .menu-items ul {
     text-align: right;
-    margin: 14px 0 10px 0;
+    margin: 14px 10px 10px 0;
 }
 
 #menu .menu-items ul li {
@@ -52,7 +53,7 @@
 }
 
 #menu .menu-items ul li:not(:last-of-type) {
-    padding: 0 38px 0 0px;
+    padding: 0 45px 0 0px;
 }
 
 #menu .menu-items ul li a {

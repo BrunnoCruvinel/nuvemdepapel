@@ -1,5 +1,5 @@
 #destaque-fotos {
-    height: 410px;
+    height: 388px;
     overflow: hidden;
     margin-bottom: 0px;
 }
@@ -7,7 +7,7 @@
 #destaque-fotos li {
   float: left;
   height: 100%;
-  padding: 5%;
+  padding: 3%;
 }
 #destaque-fotos li img{
   margin-top: 100px;
@@ -64,5 +64,5 @@
 
 #home-casa img {
     width: 100%;
-    margin-left: 33%;
+    margin-left: 16%;
 }

@@ -120,6 +120,7 @@
 
 .menu-destaque {
   position: relative;
+  top: 8px;
 }
 
 .menu-destaque:before {
