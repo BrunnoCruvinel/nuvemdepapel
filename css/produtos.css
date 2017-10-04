@@ -5,3 +5,7 @@
 #produtos .nao-moro {
     position: absolute;
 }
+
+.back_pijama{
+	background: url(../img/nuvens_pijama.png);
+}
