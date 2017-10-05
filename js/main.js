@@ -55,7 +55,7 @@ $(document).ready(function() {
     margin: 20,
     dots: false,
     navRewind: false,
-    navText: ["<img src='img/seta_esquerda.png'>", "<img src='img/seta_direita.png'>"]
+    navText: ["<img height='22px' src='img/seta-branca-esquerda.png'>", "<img height='22px' src='img/seta-branca-direita.png'>"]
   });
 
 
