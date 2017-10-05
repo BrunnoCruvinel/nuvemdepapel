@@ -1,6 +1,6 @@
 <?php require "header.php" ?>
 
-<section id="produtos" class="bg-nuvem-produtos">
+<section id="produtos" class="bg-nuvem-produtos bg-nuvem-arquitetura">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -64,7 +64,9 @@
             <div class="titulo-grande text-color-marrom">
                 Depoimentos
             </div>
-            <?php require "depoimentos.php" ?>
+            <div id="arq">
+              <?php require "depoimentos.php" ?>
+            </div>
         </div>
 
         <div class="espacamento_top espacamento_bottom">

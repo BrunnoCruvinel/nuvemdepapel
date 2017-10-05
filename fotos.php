@@ -1,4 +1,4 @@
-<div class="componente-fotos-container">
+<div class="componente-fotos-container col-md-12">
     <div class="componente-fotos owl-carousel owl-theme">
         <div class="item">
             <div class="row">

@@ -1,6 +1,6 @@
 <?php require "header.php" ?>
 
-    <section id="blog" class="espacamento_bottom bg-nuvem-blog">
+    <section id="blog" class="espacamento_bottom bg-nuvem-blog bg-nuvem-arquitetura">
         <div class="container espacamento_bottom">
 
             <div class="row">
@@ -37,8 +37,8 @@
                 <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
                     <div class="espacamento_bottom">
                         <div class="blog-pesquisar">
-                            <input class="input-customizado" type="text" placeholder="Pesquisar...">
-                            <img class="img-responsive" src="img/input-contato.png" alt="">
+                            <input class="input-customizado titulo-medio-pequeno " type="text" placeholder="Pesquisar..." style="font-size:20px;">
+
                         </div>
                     </div>
 

@@ -1,6 +1,6 @@
 <?php require "header.php" ?>
 
-<section id="kit-locacao" class="bg-nuvem-kit-locacao">
+<section id="kit-locacao" class="bg-nuvem-kit-locacao bg-nuvem-arquitetura">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">

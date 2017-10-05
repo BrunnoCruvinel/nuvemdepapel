@@ -1,3 +1,7 @@
+.owl-theme .owl-nav [class*='owl-'] {
+    color: #f299a2 !important;
+
+}
 .componente-fotos {
     z-index: 1;
     display: flex;
@@ -6,7 +10,7 @@
 }
 
 .componente-fotos-container {
-    border: 2px dashed #ffffff;
+    border: 2px dashed #444;
     border-radius: 10px;
     padding: 2%;
 }
