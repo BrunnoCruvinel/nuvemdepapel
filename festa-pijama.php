@@ -59,7 +59,7 @@
 						Parceiros
 					</div>
 				</div>
-				<div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10">
+				<div class="col-md-10 col-sm-10 col-xs-10 fotos-parceiros">
                     <?php require "parceiros.php" ?>
                 </div>
             </div>
