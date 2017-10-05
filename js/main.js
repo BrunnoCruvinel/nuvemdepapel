@@ -9,9 +9,11 @@ $(document).ready(function() {
     if (currentScroll > previousScroll) {
       y += 5;
       $('.backNuvem').css("background-position", "0px " + y + "px");
+	  $('.back_pijama').css("background-position", "25px " + y + "px");
     } else {
       y -= 5;
       $('.backNuvem').css("background-position", "0px " + y + "px");
+	  $('.back_pijama').css("background-position", "25px " + y + "px");
     }
     previousScroll = currentScroll;
 
