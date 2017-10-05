@@ -1,5 +1,13 @@
-<div id="slide-arquitetura" class="owl-carousel owl-theme">
-    <div class="item-arquitetura">
+<ul id="navArquitetura" class="text-pequeno">
+  <li class="active" data-go="slide-arquitetura" data-text="ARQUITETURA">ARQUITETURA</li>
+  <li data-text="O QUE FAZEMOS" data-go="oqf"></li>
+  <li data-text="COMO FUNCIONA" data-go="cf"></li>
+  <li data-text="EXTRAS" data-go="extras"></li>
+  <li data-text="DEPOIMENTOS" data-go="depoimentos"></li>
+  <li data-text="FOTOS" data-go="fotos"></li>
+</ul>
+
+    <div id="slide-arquitetura"  class="item-arquitetura">
         <div class="row text-normal text-color-marrom">
             <div class="col-md-8 col-sm-8 col-xs-8 col-lg-8">
                 Aqui, arquitetura e design se misturam para deixar o ambiente das crianças
@@ -12,12 +20,12 @@
         </div>
     </div>
 
-    <div class="item-arquitetura" data-marcador="teste">
+    <div id="oqf" class="item-arquitetura" data-marcador="teste">
         <div class="row text-normal text-color-marrom">
-            <div class="col-md-3 col-sm-3 col-xs-3 col-lg-3">
+            <div class="col-md-4 col-sm-4 col-xs-12 col-lg-4">
                 <img src="img/nuvem_que_fazemos.png" alt="">
             </div>
-            <div class="col-md-7 col-sm-7 col-xs-7 col-lg-7">
+            <div class="col-md-7 col-sm-7 col-xs-12 col-lg-7">
                 <div>
                     Fazemos o <span class="text-pequeno-destaque text-color-verde">PROJETO/REFORMA</span> ou
                     <span class="text-pequeno-destaque text-color-verde">REORGANIZAÇÃO</span>
@@ -37,12 +45,12 @@
         </div>
     </div>
 
-    <div class="item-arquitetura">
+    <div id="cf" class="item-arquitetura">
         <div class="row text-normal text-color-marrom">
-            <div class="col-md-3 col-sm-3 col-xs-3 col-lg-3">
+            <div class="col-md-4 col-sm-4 col-xs-12 col-lg-4">
                 <img src="img/nuvem_como_funciona.png" alt="">
             </div>
-            <div class="col-md-7 col-sm-7 col-xs-7 col-lg-7">
+            <div class="col-md-7 col-sm-7 col-xs-12 col-lg-7">
                 <div>
                     Tudo começa com uma visita ao local, onde conhecemos o espaço,
                     conversamos, trocamos ideias e <span class="text-pequeno-destaque text-color-verde">JUNTOS</span>, escolhemos a tipologia do serviço necessária.
@@ -55,7 +63,7 @@
         </div>
         <div class="row arquitetura-que-fazemos">
             <div class="col-md-4 col-sm-4">
-                <img src="img/reorganizacao.png" width="100">
+                <img src="img/reorganizacao.png">
             </div>
             <div class="col-md-4 col-sm-4">
                 <img src="img/repaginada.png">
@@ -66,12 +74,12 @@
         </div>
     </div>
 
-    <div class="item-arquitetura">
+    <div id="extras" class="item-arquitetura">
         <div class="row text-normal text-color-marrom">
-            <div class="col-md-3 col-sm-3 col-xs-3 col-lg-3">
-                <img src="img/extras.png" alt="">
+            <div class="col-md-4 col-sm-4 col-xs-12 col-lg-4">
+                <img src="img/estras.png" alt="">
             </div>
-            <div class="col-md-7 col-sm-7 col-xs-7 col-lg-7">
+            <div class="col-md-7 col-sm-7 col-xs-12 col-lg-7">
                 <div class="row espacamento-texto-paragrafo">
                     <div class="text-pequeno-destaque text-color-rosa"><strong>DIA DA MONTAGEM</strong></div>
                     <div>Você já tem os produtos e agora quer instalar tudo no quarto. O dia de montagem instala as peças de decoração pra você.</div>
@@ -97,18 +105,21 @@
         </div>
     </div>
 
-    <div class="item-arquitetura">
+    <div id="depoimentos" class="item-arquitetura">
         <div class="row text-normal text-color-marrom">
             <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
                 <div class="titulo-grande text-color-marrom">
                     Depoimentos
                 </div>
-                <?php require "depoimentos.php" ?>
+                <div id="arq">
+                  <?php require "depoimentos.php" ?>
+                </div>
+
             </div>
         </div>
     </div>
 
-    <div class="item-arquitetura">
+    <div id="fotos" class="item-arquitetura">
         <div class="row">
             <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 col-lg-offset-1 col-lg-10">
                <div class="titulo-grande text-color-marrom">
@@ -118,4 +129,3 @@
             </div>
         </div>
     </div>
-</div>
