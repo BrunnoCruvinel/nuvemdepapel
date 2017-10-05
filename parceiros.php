@@ -1,5 +1,4 @@
 <div class="componente-parceiros-container row">
-    <div class="">
         <div class="componente-parceiros owl-carousel owl-theme">
             <div class="item">
                 <div class="row">
@@ -49,5 +48,4 @@
                 </div>
             </div>
         </div>
-    </div>
 </div>

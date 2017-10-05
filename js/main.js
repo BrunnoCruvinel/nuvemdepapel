@@ -74,7 +74,7 @@ $('#slideNuvem').owlCarousel({
     margin: 30,
     dots: false,
     navRewind: false,
-    navText: ["<img src='../img/seta_esquerda.png'>", "<img src='../img/seta_direita.png'>"],
+    navText: ["<img src='img/seta_esquerda.png'>", "<img src='img/seta_direita.png'>"],
     responsive: {
       0: {
         items: 1,
