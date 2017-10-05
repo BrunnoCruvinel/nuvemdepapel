@@ -32,12 +32,12 @@
 
 .componente-parceiros.owl-theme .owl-nav .owl-prev {
     position: absolute;
-    left: -10%;
+    left: -8%;
 }
 
 .componente-parceiros.owl-theme .owl-nav .owl-next {
     position: absolute;
-    right: -10%;
+    right: -8%;
 }
 
 .componente-parceiros .owl-nav {

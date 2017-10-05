@@ -9,3 +9,13 @@
 .back_pijama{
 	background: url(../img/nuvens_pijama.png);
 }
+
+.pijama-description{
+	font-size: 19px !important;
+	text-align: justify;
+	padding-left: 15px;
+}
+
+.itens-pijama{
+	margin-left: -20px;
+}

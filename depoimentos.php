@@ -1,3 +1,5 @@
+<div class="row">
+<div class="col-md-12">
 <div id="componente-depoimentos" class="owl-carousel owl-theme">
     <div class="item-slide">
         <div class="row">
@@ -46,4 +48,6 @@
             </div>
         </div>
     </div>
+</div>
+</div>
 </div>

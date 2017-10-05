@@ -9,10 +9,12 @@ $(document).ready(function() {
     if (currentScroll > previousScroll) {
       y += 7;
       $('.backNuvem').css("background-position", "0px " + y + "px");
+	  $('.back_pijama').css("background-position", "25px " + y + "px");
       $('.bg-nuvem-arquitetura').css("background-position", "0px " + y + "px");
     } else {
       y -= 7;
       $('.backNuvem').css("background-position", "0px " + y + "px");
+	  $('.back_pijama').css("background-position", "25px " + y + "px");
       $('.bg-nuvem-arquitetura').css("background-position", "0px " + y + "px");
     }
     previousScroll = currentScroll;
@@ -82,7 +84,7 @@ $('.item-arquitetura').on('mouseenter', function(){
     margin: 20,
     dots: false,
     navRewind: false,
-    navText: ["<img src='../img/seta_esquerda.png'>", "<img src='../img/seta_direita.png'>"]
+    navText: ["<img height='22px' src='img/seta-branca-esquerda.png'>", "<img height='22px' src='img/seta-branca-direita.png'>"]
   });
 
 
@@ -101,7 +103,7 @@ $('#slideNuvem').owlCarousel({
     margin: 30,
     dots: false,
     navRewind: false,
-    navText: ["<img src='../img/seta_esquerda.png'>", "<img src='../img/seta_direita.png'>"],
+    navText: ["<img src='img/seta_esquerda.png'>", "<img src='img/seta_direita.png'>"],
     responsive: {
       0: {
         items: 1,
