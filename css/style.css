@@ -223,3 +223,19 @@
 .row{
   margin: 0px;
 }
+
+.img-depoimento{
+	width: 75px;
+    position: absolute;
+    left: 35%;
+    overflow: hidden;
+    top: -15%;
+    -webkit-transform: rotate(5deg);
+    border-radius: 10px;
+}
+
+.img-avatar{
+	margin-left: -30%;
+	width: 110px !important;
+	margin-top: -5%;
+}
