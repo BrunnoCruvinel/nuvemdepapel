@@ -226,10 +226,11 @@
 
 .img-depoimento{
 	width: 75px;
+	height: 100px;
     position: absolute;
     left: 35%;
     overflow: hidden;
-    top: -15%;
+    top: -20%;
     -webkit-transform: rotate(5deg);
     border-radius: 10px;
 }
