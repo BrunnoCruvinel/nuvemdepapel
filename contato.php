@@ -8,6 +8,7 @@
                     <div class="titulo-grande text-color-marrom">
                         Contato
                     </div>
+                    <img id="vamos" src="img/vamos-conversar.png">
                 </div>
             </div>
 
@@ -17,44 +18,48 @@
                         <div class="col-md-6 col-sm-6">
                             <div class="row">
                                 <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <div id="contato-nome" class="text-color-marrom vamor-conversar">
+
+                                    <div id="contato-nome" class="fundo-input text-color-marrom vamor-conversar">
                                         <input class="input-customizado" type="text" placeholder="Nome">
-                                        <img class="img-responsive" src="img/input-contato.png" alt="">
+
                                     </div>
                                 </div>
                             </div>
-
+        <br><br>
                             <div class="row">
                                 <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <div id="contato-email" class="text-color-marrom">
+                                    <div id="contato-email" class="fundo-input text-color-marrom">
                                         <input class="input-customizado" type="text" placeholder="E-mail">
-                                        <img class="img-responsive" src="img/input-contato.png" alt="">
+
                                     </div>
                                 </div>
                             </div>
-
+                            <br><br>
                             <div class="row">
                                 <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <div id="contato-telefone" class="text-color-marrom">
+                                    <div id="contato-telefone" class="fundo-input text-color-marrom">
                                         <input class="input-customizado" type="text" placeholder="Telefone">
-                                        <img class="img-responsive" src="img/input-contato.png" alt="">
+
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-6 col-sm-6">
-                            <textarea name="" id="contato-mensagem" class="textarea-customizado" placeholder="Mensagem"></textarea>
-                            <img class="img-responsive" src="img/textarea-contato.png" alt="">
+                          <div class="fundo-input">
+                            <textarea name="" id="contato-mensagem" class="input-customizado textarea-customizado" placeholder="Mensagem"></textarea>
+                          </div>
                         </div>
                     </div>
+
+                    <br><br>
+                                    <div class="row">
+                                        <div class="col-md-12 col-sm-12 col-xs-12 text-right">
+                                            <a href="javascript:void(0)"><img src="img/contato_botao_enviar.png" alt=""></a>
+                                        </div>
+                                    </div>
                 </form>
 
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12 text-right">
-                        <a href="javascript:void(0)"><img src="img/contato_botao_enviar.png" alt=""></a>
-                    </div>
-                </div>
             </div>
         </div>
 

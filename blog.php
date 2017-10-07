@@ -36,8 +36,8 @@
 
                 <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
                     <div class="espacamento_bottom">
-                        <div class="blog-pesquisar">
-                            <input class="input-customizado titulo-medio-pequeno " type="text" placeholder="Pesquisar..." style="font-size:20px;">
+                        <div class="fundo-input">
+                            <input class="input-customizado" type="text" placeholder="Pesquisar..." style="font-size:20px;">
 
                         </div>
                     </div>

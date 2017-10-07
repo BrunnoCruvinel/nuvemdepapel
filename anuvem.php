@@ -1,6 +1,6 @@
 <?php require "header.php" ?>
 
-    <section id="anuvem" class="bg-nuvens">
+    <section id="anuvem" class="bg-nuvens bg-nuvem-arquitetura">
 
         <div class="container">
             <section>

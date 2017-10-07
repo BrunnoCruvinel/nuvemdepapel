@@ -223,3 +223,31 @@
 .row{
   margin: 0px;
 }
+
+
+.fundo-input{
+  background-color: #fff;
+  box-shadow: 0px 1px 5px #666;
+  padding: 1rem;
+  width: 100%;
+      border-radius: 8px;
+}
+.input-customizado {
+  border: 2px dashed #666;
+  padding: 1.2rem;
+  font-family: Foxinthesnow;
+  font-weight: lighter;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 21px;
+}
+.textarea-customizado{
+  height: 290px;
+}
+
+#vamos{
+  position: absolute;
+  margin-top: -70px;
+  margin-left: -30px;
+  z-index: 777;
+}
