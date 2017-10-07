@@ -11,7 +11,10 @@
                     <div class="usuario-depoimento-nome titulo-pequeno text-color-marrom">
                         Eduardo Silveira
                     </div>
-                    <img src="../img/nuvem_depoimentos.png" alt="">
+					<div class="img-depoimento">
+						<img class="img-avatar" src="img/avatar.png">
+					</div>
+                    <img src="img/nuvem_depoimentos.png" alt="">
                 </div>
             </div>
         </div>
@@ -27,7 +30,10 @@
                     <div class="usuario-depoimento-nome titulo-pequeno text-color-marrom">
                         Nome Teste
                     </div>
-                    <img src="../img/nuvem_depoimentos.png" alt="">
+					<div class="img-depoimento">
+						<img class="img-avatar" src="img/avatar.png">
+					</div>
+                    <img src="img/nuvem_depoimentos.png" alt="">
                 </div>
             </div>
         </div>
@@ -43,7 +49,10 @@
                     <div class="usuario-depoimento-nome titulo-pequeno text-color-marrom">
                         Nome teste 2
                     </div>
-                    <img src="../img/nuvem_depoimentos.png" alt="">
+					<div class="img-depoimento">
+						<img class="img-avatar" src="img/avatar.png">
+					</div>
+                    <img src="img/nuvem_depoimentos.png" alt="">
                 </div>
             </div>
         </div>

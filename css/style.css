@@ -224,6 +224,23 @@
   margin: 0px;
 }
 
+.img-depoimento{
+	width: 75px;
+	height: 100px;
+    position: absolute;
+    left: 35%;
+    overflow: hidden;
+    top: -20%;
+    -webkit-transform: rotate(5deg);
+    border-radius: 10px;
+}
+
+.img-avatar{
+	margin-left: -30%;
+	width: 110px !important;
+	margin-top: -5%;
+}
+
 
 .fundo-input{
   background-color: #fff;
