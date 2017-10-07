@@ -2,7 +2,18 @@
 
 /* Small Devices, Tablets */
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+	.nuvem-branca-capacete{
+		font-size: 45px;
+	}
+	.nuvem-azul-capacete{
+		font-size: 40px;
+		min-width: 385px;
+	}
+	.titulo-grande{
+		font-size: 45px;
+	}
+}
 
 
 /* Medium Devices, Desktops */
