@@ -287,3 +287,7 @@
 #kit-war .text-normal.espacamento_bottom{
 	margin-left: -10px;
 }
+
+#arq #componente-depoimentos .item-slide{
+	border: 2px dashed #000000;
+}

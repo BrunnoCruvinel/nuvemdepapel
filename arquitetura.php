@@ -11,14 +11,17 @@
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <?php require "slide-arquitetura.php" ?>
+
             </div>
         </div>
 
         <div class="espacamento_bottom">
             <div class="row">
-                <div class="titulo-grande text-color-marrom">
-                    Parceiros
-                </div>
+				<div class="col-md-12">
+					<div class="titulo-grande text-color-marrom">
+						Parceiros
+					</div>
+				</div>
                 <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                     <?php require "parceiros.php" ?>
                 </div>
