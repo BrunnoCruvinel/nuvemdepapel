@@ -19,7 +19,7 @@
     display: block;
     position: relative;
     top: 16px;
-    background: url("../img/pesquisar-lupa.png") no-repeat right 7px center;
+    /*background: url("../img/pesquisar-lupa.png") no-repeat right 7px center;*/
     padding-left: 10px;
     padding-right: 10px;
     border: 1px solid #95d4e6;
@@ -126,6 +126,16 @@
         margin: 0;
         padding: 0;
     }
+}
+
+.lupa_pesquisa{
+	background: url(../img/pesquisar-lupa.png) no-repeat right 17px center;
+    height: 30px;
+    width: 55px;
+    top: 21px;
+    position: absolute;
+    right: 15px;
+	border-left: 1px solid #95d4e6;
 }
 
 

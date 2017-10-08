@@ -23,6 +23,7 @@
                                 </div>
                                 <div id="pesquisar" class="col-md-4 col-sm-4 col-xs-6">
                                     <input type="text" id="pesquisa" placeholder="Pesquisar...">
+									<label class="lupa_pesquisa" style=""></label>
                                 </div>
                             </div>
                         </div>
