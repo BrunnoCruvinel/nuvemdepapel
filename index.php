@@ -4,13 +4,13 @@
   <section >
     <ul id="destaque-fotos" class="row">
         <li class="text-right" style="width:37.5%;background:url('img/imagem_destaque_1.png') center center;background-size:cover;">
-            <img src="img/nuvem-aniversario.png">
+            <img class="img-responsive" src="img/nuvem-aniversario.png">
         </li>
         <li class="text-center" style="width:25%;background:url('img/imagem_destaque_2.png') center center;background-size:cover;">
-            <img src="img/batismo.png">
+            <img class="img-responsive" src="img/batismo.png">
         </li>
         <li class="text-left" style="width:37.5%;background:url('img/imagem_destaque_3.png') center center;background-size:cover;">
-            <img src="img/cha.png">
+            <img class="img-responsive" src="img/cha.png">
         </li>
     </ul>
   </section>
@@ -26,7 +26,7 @@
                     QUE CRIANÇA NÃO SONHA COM O DIA EM QUE TODOS OS SEUS MELHORES AMIGOS VÃO PODER DORMIR NA SUA CASA?
                 </div>
                 <div id="img-eu-quero">
-                    <img src="img/eu_quero.png" alt="">
+                    <img class="img-responsive" src="img/eu_quero.png" alt="">
                 </div>
             </div>
             <div class="col-md-6">
@@ -37,7 +37,7 @@
                           <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
 
 
-                                  <img src="../img/nuvemSlide.png" alt="">
+                                  <img src="img/nuvemSlide.png" alt="">
 
                           </div>
                       </div>
@@ -48,7 +48,7 @@
                           <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
 
 
-                                  <img src="../img/nuvemSlide.png" alt="">
+                                  <img src="img/nuvemSlide.png" alt="">
 
                           </div>
                       </div>
@@ -59,7 +59,7 @@
                           <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
 
 
-                                  <img src="../img/nuvemSlide.png" alt="">
+                                  <img src="img/nuvemSlide.png" alt="">
 
                           </div>
                       </div>
@@ -80,7 +80,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <img class="img-quero-mas-nao-moro" src="img/eu_quero_mas_nao_moro.png" alt="">
+                <img class="img-quero-mas-nao-moro img-responsive" src="img/eu_quero_mas_nao_moro.png" alt="">
             </div>
         </div>
     </div>
@@ -141,7 +141,7 @@
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis arcu dolor. Integer tempus ipsum vitae est malesuada interdum. Sed tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce facilisis arcu dolor. Integer tempus ipsum vitae est malesuada interdum.
                         </div>
                         <div class="text-center">
-                            <img src="img/foto-festa-war.png" alt="">
+                            <img class="img-responsive" src="img/foto-festa-war.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -152,7 +152,7 @@
     <div class="mais-post tracejado-branco">
         <div class="row">
             <div class="col-md-12 text-center">
-                <a href=""><img src="img/nuvem_mais_posts.png" alt=""></a>
+                <a href=""><img class="img-responsive" src="img/nuvem_mais_posts.png" alt=""></a>
             </div>
         </div>
     </div>

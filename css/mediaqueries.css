@@ -13,6 +13,44 @@
 	.titulo-grande{
 		font-size: 45px;
 	}
+	
+	#componente-depoimentos .usuario-depoimento{
+		right: -65px;
+		left: 145px;
+		top: 147px;
+	}
+	.img-depoimento{
+		width: 55px;
+		height: 55px;
+	}
+	
+	.titulo-pequeno{
+		font-size: 15px;
+	}
+	
+	.text-medio{
+		font-size: 20px;
+	}
+	.img-avatar{
+		margin-left: -20%;
+		max-width: 100%;
+		height: auto;
+	}
+	
+	.titulo-blog{
+		font-size: 20px;
+	}
+	
+	.text-normal{
+		font-size: 14px;
+	}
+	.text-pequeno{
+		font-size: 20px;
+	}
+	
+	#destaque-fotos li img{
+		margin-top: 290px;
+	}
 }
 
 

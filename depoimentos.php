@@ -14,7 +14,7 @@
 					<div class="img-depoimento">
 						<img class="img-avatar" src="img/avatar.png">
 					</div>
-                    <img src="img/nuvem_depoimentos.png" alt="">
+                    <img class="img-responsive" src="img/nuvem_depoimentos.png" alt="">
                 </div>
             </div>
         </div>
@@ -33,7 +33,7 @@
 					<div class="img-depoimento">
 						<img class="img-avatar" src="img/avatar.png">
 					</div>
-                    <img src="img/nuvem_depoimentos.png" alt="">
+                    <img class="img-responsive" src="img/nuvem_depoimentos.png" alt="">
                 </div>
             </div>
         </div>
@@ -52,7 +52,7 @@
 					<div class="img-depoimento">
 						<img class="img-avatar" src="img/avatar.png">
 					</div>
-                    <img src="img/nuvem_depoimentos.png" alt="">
+                    <img class="img-responsive" src="img/nuvem_depoimentos.png" alt="">
                 </div>
             </div>
         </div>
