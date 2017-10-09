@@ -65,6 +65,22 @@
 	#destaque-fotos li img{
 		margin-top: 290px;
 	}
+	
+	.componente-fotos.owl-theme .owl-nav .owl-next{
+		right: -15%;
+	}
+	
+	.componente-fotos.owl-theme .owl-nav .owl-prev{
+		left: -15%;
+	}
+	
+	#arquitetura .componente-fotos.owl-theme .owl-nav .owl-next{
+		right: -20%;
+	}
+	
+	#arquitetura .componente-fotos.owl-theme .owl-nav .owl-prev{
+		left: -20%;
+	}
 }
 
 
