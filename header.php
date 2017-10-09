@@ -6,11 +6,8 @@
 
     <!-- META -->
   	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  	<meta name="keywords" content="">
-  	<meta name="description" content="">
-  	<meta name="robots" content="index,follow">
-  	<meta property="og:title" content="">
-  	<meta property="og:image" content="">
+    <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+    <?php wp_head(); ?>
 
     <!-- CSS -->
     <link rel="stylesheet" href="  https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
