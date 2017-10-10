@@ -51,7 +51,7 @@
 
            <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12 text-right">
-                    <img src="img/site_feito_codde.png" alt="">
+                    <img class="logo_code" src="img/site_feito_codde.png" alt="">
                 </div>
            </div>
        </div>

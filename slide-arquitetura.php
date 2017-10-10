@@ -112,7 +112,7 @@
                     Depoimentos
                 </div>
                 <div id="arq">
-                  <?php require "depoimentos.php" ?>
+                  <?php require "depoimentos_arq.php" ?>
                 </div>
 
             </div>

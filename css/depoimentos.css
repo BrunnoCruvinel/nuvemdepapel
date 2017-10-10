@@ -73,3 +73,20 @@
 #componente-depoimentos .owl-stage-outer {
     width: 100%;
 }
+
+#arq .usuario-depoimento{
+	right: -210px;
+    top: 75px;
+}
+
+#arq .owl-dots {
+    position: absolute;
+    margin-top: -125px !important;
+    margin-left: 20% !important;
+}
+
+#arq .owl-carousel.owl-drag .owl-item{
+    width: 986px;
+    margin-right: 10px;
+    margin-bottom: 55px;
+}

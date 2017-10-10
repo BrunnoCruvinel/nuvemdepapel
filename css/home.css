@@ -62,7 +62,6 @@
     margin-top: 50px;
 }
 
-#home-casa img {
-    width: 100%;
-    margin-left: 16%;
+#home-casa{
+	margin-left: -8%;
 }

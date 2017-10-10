@@ -1,11 +1,11 @@
 <?php require "header.php" ?>
 
-<section id="produtos" class="bg-nuvem-arquitetura">
+<section id="produtos">
     <div class="container">
         <div class="row espacamento_top">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <div class="titulo-grande text-color-marrom">
-                  <h1 class="nuvem-azul-capacete" style="text-align: left;">Festas</h1>
+                    <span class="nuvem-aniversario">Festas</span>
                 </div>
             </div>
         </div>
@@ -73,12 +73,6 @@
 				</div>
 			</div>
             <?php require "depoimentos.php" ?>
-            <div class="titulo-grande text-color-marrom">
-                Depoimentos
-            </div>
-            <div id="arq">
-              <?php require "depoimentos.php" ?>
-            </div>
         </div>
 
         <div class="row espacamento_bottom">
@@ -224,13 +218,15 @@
         </div>
     </div>
 
-    <div id="home-casa" class="espacamento_top">
-        <div class="row">
-            <div class="col-md-8 col-sm-10 col-xs-10">
-                <img class="img-responsive" src="img/casas.png" alt="">
-            </div>
-        </div>
-    </div>
+    <div class="container">
+		<div id="home-casa" class="espacamento_top">
+			<div class="row">
+				<div class="col-md-9 col-sm-9 col-xs-9">
+					<img class="img-responsive" src="img/casas.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
 <?php require "footer.php" ?>

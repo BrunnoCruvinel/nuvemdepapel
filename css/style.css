@@ -65,7 +65,7 @@
 }
 
 .text-medio {
-  font-size: 35px;
+  font-size: 33px;
 }
 
 .text-pequeno {
@@ -181,10 +181,19 @@
   min-width: 630px;
   font-size: 70px;
   background: url("../img/destaque_titulo_1.png") no-repeat;
-  background-position: 1px -15px;
+  background-position: 3px -2px;
   text-align: center;
   padding: 3rem;
-
+  padding-top: 3.8rem;
+}
+.nuvem-azul-arquitetura {
+  min-width: 630px;
+  font-size: 70px;
+  background: url("../img/destaque_titulo_azul_2.png") no-repeat;
+  background-position: 20px 15px;
+  text-align: center;
+  padding: 3rem;
+  padding-top: 3.8rem;
 }
 .nuvem-branca-capacete {
   font-size: 70px;

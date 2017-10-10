@@ -47,7 +47,7 @@
                                     <li><a href="kits-locacao.php">KIT LOCAÇÃO</a></li>
                                     <li><a href="produtos.php">PRODUTOS</a></li>
                                     <li><a href="blog.php">BLOG</a></li>
-                                    <li><a href="anuvem.php">A NUVEN</a></li>
+                                    <li><a href="anuvem.php">A NUVENS</a></li>
                                     <li><a href="contato.php">CONTATO</a></li>
                                 </ul>
                             </div>
