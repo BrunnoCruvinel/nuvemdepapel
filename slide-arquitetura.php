@@ -121,10 +121,15 @@
 
     <div id="fotos" class="item-arquitetura">
         <div class="row">
-            <div class="col-md-10 col-sm-10 col-xs-10 col-lg-10">
-               <div class="titulo-grande text-color-marrom">
-                    Fotos
-               </div>
+            <div class="col-md-12">
+				<div class="titulo-grande text-color-marrom">
+					Fotos
+				</div>
+			</div>
+		</div>
+			
+        <div class="row">
+            <div class="col-md-10 col-sm-10 col-xs-10 fotos-carousel">
                 <?php require "fotos.php" ?>
             </div>
         </div>
