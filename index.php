@@ -1,4 +1,4 @@
-<?php require "header.php"; ?>
+<?php get_header() ?>
 
 
   <section >
@@ -158,4 +158,4 @@
     </div>
 </section>
 
-<?php require "footer.php"; ?>
+<?php get_footer() ?>
