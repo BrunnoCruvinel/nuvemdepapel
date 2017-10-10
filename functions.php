@@ -139,7 +139,7 @@ function excerpt($limit, $ex="")
 // }
 
 add_action('init', 'produtos');
-function banner()
+function produtos()
 {
     register_post_type('produtos', array(
 
@@ -159,6 +159,32 @@ function banner()
         'menu_position' => null,
         'supports' => array('title', 'editor', 'thumbnail', 'custom-fields'),
         'menu_icon' => 'dashicons-products',
+        )
+
+    );
+}
+
+add_action('init', 'depoimentos');
+function depoimentos()
+{
+    register_post_type('depoimentos', array(
+
+        'labels' => array(
+            'name' => __('Depoimentos'),
+            'singular_name' => __('Depoimento')
+        ),
+        //'taxonomies' => array('category'),
+        'public' => true,
+        'publicly_queryable' => true,
+        'show_ui' => true,
+        'show_in_menu' => true,
+        'query_var' => true,
+        'capability_type' => 'post',
+        'has_archive' => true,
+        'hierarchical' => false,
+        'menu_position' => null,
+        'supports' => array('title', 'editor', 'thumbnail', 'custom-fields'),
+        'menu_icon' => 'dashicons-admin-users',
         )
 
     );
