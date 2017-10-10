@@ -4,7 +4,7 @@
             <div class="col-md-2 col-sm-2">
                 <div class="logo-menu">
                   <a href="/">
-                    <img src="img/logo.png" alt="" class="logo">
+                    <img src="<?php echo bloginfo("template_directory") ?>/img/logo.png" alt="" class="logo">
                   </a>
                 </div>
             </div>
@@ -15,10 +15,10 @@
                             <div class="row">
                                 <div class="col-md-8 col-sm-8 col-xs-6 text-right">
                                     <div id="menu-redesociais">
-                                        <a href=""><img src="img/redesocial-facebook.png"></a>
-                                        <a href=""><img src="img/redesocial-instagram.png"></a>
-                                        <a href=""><img src="img/redesocial-pinterest.png"></a>
-                                        <a href=""><img src="img/redesocial-youtube.png"></a>
+                                        <a href=""><img src="<?php echo bloginfo("template_directory") ?>/img/redesocial-facebook.png"></a>
+                                        <a href=""><img src="<?php echo bloginfo("template_directory") ?>/img/redesocial-instagram.png"></a>
+                                        <a href=""><img src="<?php echo bloginfo("template_directory") ?>/img/redesocial-pinterest.png"></a>
+                                        <a href=""><img src="<?php echo bloginfo("template_directory") ?>/img/redesocial-youtube.png"></a>
                                     </div>
                                 </div>
                                 <div id="pesquisar" class="col-md-4 col-sm-4 col-xs-6">
@@ -41,14 +41,14 @@
                             </div>
                             <div class="menu-lista">
                                 <ul class="menu-item text-pequeno">
-                                    <li><a href="arquitetura.php">ARQUITETURA</a></li>
-                                    <li><a href="festa-pijama.php">FESTA PIJAMA</a></li>
-                                    <li><a href="festas.php">FESTAS</a></li>
-                                    <li><a href="kits-locacao.php">KIT LOCAÇÃO</a></li>
-                                    <li><a href="produtos.php">PRODUTOS</a></li>
-                                    <li><a href="blog.php">BLOG</a></li>
-                                    <li><a href="anuvem.php">A NUVEN</a></li>
-                                    <li><a href="contato.php">CONTATO</a></li>
+                                    <li><a href="<?php echo DOMAIN ?>arquitetura">ARQUITETURA</a></li>
+                                    <li><a href="<?php echo DOMAIN ?>festa-pijama">FESTA PIJAMA</a></li>
+                                    <li><a href="<?php echo DOMAIN ?>festas">FESTAS</a></li>
+                                    <li><a href="<?php echo DOMAIN ?>kits-locacao">KIT LOCAÇÃO</a></li>
+                                    <li><a href="<?php echo DOMAIN ?>produtos">PRODUTOS</a></li>
+                                    <li><a href="<?php echo DOMAIN ?>blog">BLOG</a></li>
+                                    <li><a href="<?php echo DOMAIN ?>anuvem">A NUVEN</a></li>
+                                    <li><a href="<?php echo DOMAIN ?>contato">CONTATO</a></li>
                                 </ul>
                             </div>
                         </nav>

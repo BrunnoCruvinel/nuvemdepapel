@@ -37,7 +37,6 @@ add_filter("show_admin_bar", "my_function_admin_bar");
 // PLUGIN REQUIRE: Email Subscribers & Newsletters
 // FORM REQUIRE: <input type="hidden" name="news" value="-1">
 if (isset($_POST['news']) &&  $_POST['news']==-1  &&  isset($_POST['email'])) {
-
     $data['es_email_mail'] = strip_tags($_POST['email']);
     $data['es_email_name'] = strip_tags($_POST['nome']);
     $data['es_email_status'] = "Confirmed";
@@ -61,14 +60,13 @@ if (isset($_POST['news']) &&  $_POST['news']==-1  &&  isset($_POST['email'])) {
 // ******************************  CONTACT  ******************************
 
 if (isset($_POST['contact'])  &&  $_POST['contact']==-1 &&  isset($_POST['email'])) {
-
     $name = (isset($_POST['name']) && $_POST['name']!="")? "<b>NOME:</b> ".strip_tags($_POST['name'])."<br>":"";
     $email = (isset($_POST['email']) && $_POST['email']!="")? "<b>E-MAIL:</b> ".strip_tags($_POST['email'])."<br>":"";
     $phone = (isset($_POST['phone']) && $_POST['phone']!="")? "<b>TELEFONE:</b> ".strip_tags($_POST['phone'])."<br>":"";
     $msg = (isset($_POST['msg']) && $_POST['msg']!="")? "<b>MENSAGEM:</b> ".strip_tags($_POST['msg'])."<br>":"";
 
-    $to = "email@yourdomain.com";
-    $from = "email@yourdomain.com";
+    $to = "contato@nuvensdepapel.com";
+    $from = "site@nuvensdepapel.com";
     $subject = "Contato através do site";
 
     $headers = "From: $from\n";
@@ -114,14 +112,40 @@ function excerpt($limit, $ex="")
 
 // ***************   BANNER POST TYPE  ***************
 
-add_action('init', 'banner');
+// add_action('init', 'banner');
+// function banner()
+// {
+//     register_post_type('banner', array(
+//
+//         'labels' => array(
+//             'name' => __('Banner'),
+//             'singular_name' => __('Banners')
+//         ),
+//         //'taxonomies' => array('category'),
+//         'public' => true,
+//         'publicly_queryable' => true,
+//         'show_ui' => true,
+//         'show_in_menu' => true,
+//         'query_var' => true,
+//         'capability_type' => 'post',
+//         'has_archive' => true,
+//         'hierarchical' => false,
+//         'menu_position' => null,
+//         'supports' => array('title', 'editor', 'thumbnail', 'custom-fields'),
+//         'menu_icon' => 'dashicons-share-alt2',
+//         )
+//
+//     );
+// }
+
+add_action('init', 'produtos');
 function banner()
 {
-    register_post_type('banner', array(
+    register_post_type('produtos', array(
 
         'labels' => array(
-            'name' => __('Banner'),
-            'singular_name' => __('Banners')
+            'name' => __('Produtos'),
+            'singular_name' => __('Produto')
         ),
         //'taxonomies' => array('category'),
         'public' => true,
@@ -134,12 +158,11 @@ function banner()
         'hierarchical' => false,
         'menu_position' => null,
         'supports' => array('title', 'editor', 'thumbnail', 'custom-fields'),
-        'menu_icon' => 'dashicons-share-alt2',
+        'menu_icon' => 'dashicons-products',
         )
 
     );
 }
-
 
 
 
@@ -176,48 +199,42 @@ function wp_pagination()
 
 // *****************  COUNTER POSTS ******************
 
-if ( ! function_exists( 'tutsup_session_start' ) ) {
-    function tutsup_session_start() {
-        if ( ! session_id() ) @session_start();
+if (! function_exists('tutsup_session_start')) {
+    function tutsup_session_start()
+    {
+        if (! session_id()) {
+            @session_start();
+        }
     }
-    add_action( 'init', 'tutsup_session_start' );
+    add_action('init', 'tutsup_session_start');
 }
 
-if ( ! function_exists( 'tp_count_post_views' ) ) {
-
-    function tp_count_post_views () {
-
-        if ( is_single() ) {
-
-
+if (! function_exists('tp_count_post_views')) {
+    function tp_count_post_views()
+    {
+        if (is_single()) {
             global $post;
 
 
-            if ( empty( $_SESSION[ 'tp_post_counter_' . $post->ID ] ) ) {
-
-
+            if (empty($_SESSION[ 'tp_post_counter_' . $post->ID ])) {
                 $_SESSION[ 'tp_post_counter_' . $post->ID ] = true;
 
 
                 $key = 'tp_post_counter';
-                $key_value = get_post_meta( $post->ID, $key, true );
+                $key_value = get_post_meta($post->ID, $key, true);
 
 
-                if ( empty( $key_value ) ) {
+                if (empty($key_value)) {
                     $key_value = 1;
-                    update_post_meta( $post->ID, $key, $key_value );
+                    update_post_meta($post->ID, $key, $key_value);
                 } else {
-
                     $key_value += 1;
-                    update_post_meta( $post->ID, $key, $key_value );
+                    update_post_meta($post->ID, $key, $key_value);
                 }
-
             }
-
         }
 
         return;
-
     }
-    add_action( 'get_header', 'tp_count_post_views' );
+    add_action('get_header', 'tp_count_post_views');
 }

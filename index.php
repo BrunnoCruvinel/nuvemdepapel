@@ -2,17 +2,7 @@
 
 
   <section >
-    <ul id="destaque-fotos" class="row">
-        <li class="text-right" style="width:37.5%;background:url('img/imagem_destaque_1.png') center center;background-size:cover;">
-            <img class="img-responsive" src="img/nuvem-aniversario.png">
-        </li>
-        <li class="text-center" style="width:25%;background:url('img/imagem_destaque_2.png') center center;background-size:cover;">
-            <img class="img-responsive" src="img/batismo.png">
-        </li>
-        <li class="text-left" style="width:37.5%;background:url('img/imagem_destaque_3.png') center center;background-size:cover;">
-            <img class="img-responsive" src="img/cha.png">
-        </li>
-    </ul>
+    <?php $p = get_post(6); echo $p->post_content; ?>
   </section>
 
 <section class="espacamento_top bg-color-azul backNuvem">

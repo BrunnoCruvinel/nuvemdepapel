@@ -5,7 +5,7 @@
                    <div class="footer-contato">
                        <div class="row">
                            <div class="col-md-2 col-sm-2 col-xs-2">
-                               <img src="img/contato_telefone.png" alt="">
+                               <img src="<?php echo bloginfo("template_directory") ?>/img/contato_telefone.png" alt="">
                            </div>
                            <div class="col-md-10 col-sm-10 col-xs-10 text-pequeno text-color-branco">
                                48 99977.7040
@@ -14,7 +14,7 @@
 
                        <div class="row">
                            <div class="col-md-2 col-sm-2 col-xs-2">
-                               <img src="img/contato_email.png" alt="">
+                               <img src="<?php echo bloginfo("template_directory") ?>/img/contato_email.png" alt="">
                            </div>
                            <div class="col-md-10 col-sm-10 col-xs-10 text-pequeno text-color-branco">
                                NUVENSPAPEL@NUVENSDEPAPEL.COM.BR
@@ -25,10 +25,10 @@
                     <div class="footer-redesocial">
                         <div class="row">
                             <div class="col-md-12 col-sm-12 col-xs-12">
-                                <a href=""><img src="img/redesocial-facebook.png"></a>
-                                <a href=""><img src="img/redesocial-instagram.png"></a>
-                                <a href=""><img src="img/redesocial-pinterest.png"></a>
-                                <a href=""><img src="img/redesocial-youtube.png"></a>
+                                <a href=""><img src="<?php echo bloginfo("template_directory") ?>/img/redesocial-facebook.png"></a>
+                                <a href=""><img src="<?php echo bloginfo("template_directory") ?>/img/redesocial-instagram.png"></a>
+                                <a href=""><img src="<?php echo bloginfo("template_directory") ?>/img/redesocial-pinterest.png"></a>
+                                <a href=""><img src="<?php echo bloginfo("template_directory") ?>/img/redesocial-youtube.png"></a>
                             </div>
                         </div>
                     </div>
@@ -44,21 +44,21 @@
                         Instagram
                     </div>
                    <div>
-                       <img class="img-responsive" src="img/instagram.png" alt="">
+                       <img class="img-responsive" src="<?php echo bloginfo("template_directory") ?>/img/instagram.png" alt="">
                    </div>
                </div>
            </div>
 
            <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12 text-right">
-                    <img src="img/site_feito_codde.png" alt="">
+                    <img src="<?php echo bloginfo("template_directory") ?>/img/site_feito_codde.png" alt="">
                 </div>
            </div>
        </div>
    </section>
 
-  	<script type="text/javascript" src="js/main.js"></script>
-    <script src="js/plugins/owl-carousel/dist/owl.carousel.min.js"></script>
+  	<script type="text/javascript" src="<?php echo bloginfo("template_directory") ?>/js/main.js"></script>
+    <script src="<?php echo bloginfo("template_directory") ?>/js/plugins/owl-carousel/dist/owl.carousel.min.js"></script>
 
    <div id="fb-root"></div>
    <script>(function(d, s, id) {
