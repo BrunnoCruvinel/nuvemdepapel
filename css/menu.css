@@ -11,6 +11,7 @@
     text-align: right;
     position: relative;
 	top: 8px;
+	right: -2%;
 }
 
 #menu .menu-pesquisa input {
@@ -34,7 +35,7 @@
 }
 
 #menu-redesociais img {
-    margin: 0 20px 0 20px;
+    margin: 0 15px 0 20px;
 }
 
 #menu .menu-items .menu-lista {
@@ -70,6 +71,10 @@
 
 .botao-menu-responsivo {
     display: none;
+}
+
+#slideNuvem{
+	margin-top: 50px;
 }
 
 @media only screen and (max-width: 768px) {

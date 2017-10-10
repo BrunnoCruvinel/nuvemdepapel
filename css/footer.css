@@ -4,10 +4,15 @@
 
 .footer-contato {
     margin: 0 0 70px 0;
+	margin-left: -8%;
 }
 
 .footer-redesocial img {
     margin: 10px;
+}
+
+.footer-redesocial{
+	margin-left: -10%;
 }
 
 .footer-area-ebook {
@@ -19,4 +24,8 @@
 
 #footer-instagram {
     margin: 0;
+}
+
+.logo_code{
+		margin-right: 2%;
 }
