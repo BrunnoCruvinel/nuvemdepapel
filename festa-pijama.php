@@ -3,7 +3,7 @@
 <section id="produtos" class="bg-color-azul bg-nuvem-festa-pijama back_pijama" style="background-position: 25px 75px">
     <div class="container">
 
-        <div class="row espacamento_top">
+        <div class="row espacamento_top_pijama">
             <div class="col-md-6">
                 <div class="titulo-grande text-color-marrom">
                     <h1 class="nuvem-azul-capacete">Festa do pijama</h1>
@@ -37,7 +37,7 @@
         </div>
 
         <div class="espacamento_top espacamento_bottom">
-		 <div class="row">
+			<div class="row">
                 <div class="col-md-12">
 					<div class="titulo-grande text-color-marrom">
 						Fotos

@@ -33,7 +33,8 @@
 }
 
 .bg-color-azul {
-  background-color: #B3DFEB;
+  /*background-color: #B3DFEB;*/
+  background-color: #98d3e5
 }
 
 .bg-color-verde {
@@ -217,16 +218,14 @@
 
 
 
-.nuvem-aniversario:before {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 100px;
-  height: 100px;
+.nuvem-aniversario {
+  min-width: 630px;
+  font-size: 70px;
   background: url("../img/destaque_titulo_3.png") no-repeat;
-  z-index: 2;
-  top: -49px;
-  left: -9px;
+  background-position: 15px 0px;
+  text-align: center;
+  padding: 3rem;
+  padding-top: 5rem;
 }
 
 .row{
@@ -299,4 +298,21 @@
 
 #arq #componente-depoimentos .item-slide{
 	border: 2px dashed #000000;
+}
+
+.espacamento_top_pijama{
+		padding-top: 30px
+}
+
+#produtos .espacamento_top{
+	margin-left: -2%;
+}
+
+#locacao_produtos{
+	margin-left: -8%;
+    margin-right: -15%;
+}
+
+#locacao_produtos .row{
+	margin-bottom: 30px;
 }

@@ -3,7 +3,7 @@
 <section id="produtos">
     <div class="container">
         <div class="row espacamento_top">
-            <div class="col-md-12">
+            <div class="col-md-6">
                 <div class="titulo-grande text-color-marrom">
                     <span class="nuvem-aniversario">Festas</span>
                 </div>
@@ -57,7 +57,7 @@
                 </div>
 
             </div>
-            <div class="col-md-5 col-sm-5 col-xs-12 text-center">
+            <div class="col-md-5 col-sm-5 col-xs-12 text-right">
                 <img src="img/eu_quero_mas_nao_moro.png" alt="">
             </div>
         </div>
