@@ -2,24 +2,48 @@ $(document).ready(function() {
 
   y = 0;
   var previousScroll = 0;
+  var fixmeTop = 0;
+  if($('#home-casa').length>0){
+	fixmeTop = $('#home-casa').offset().top;       // get initial position of the element
+  }
   // PARALAX
   $(window).scroll(function() {
 
-    var currentScroll = $(this).scrollTop();
-    if (currentScroll > previousScroll) {
-      y += 7;
-      $('.backNuvem').css("background-position", "0px " + y + "px");
-	  $('.back_pijama').css("background-position", "25px " + y + "px");
-      $('.bg-nuvem-arquitetura').css("background-position", "0px " + y + "px");
-    } else {
-      y -= 7;
-      $('.backNuvem').css("background-position", "0px " + y + "px");
-	  $('.back_pijama').css("background-position", "25px " + y + "px");
-      $('.bg-nuvem-arquitetura').css("background-position", "0px " + y + "px");
+    //var currentScroll = $(this).scrollTop();
+    //if (currentScroll > previousScroll) {
+      //y += 7;
+      //$('.backNuvem').css("background-position", "0px " + y + "px");
+	  //$('.back_pijama').css("background-position", "25px " + y + "px");
+      //$('.bg-nuvem-arquitetura').css("background-position", "0px " + y + "px");
+    //} else {
+      //y -= 7;
+      //$('.backNuvem').css("background-position", "0px " + y + "px");
+	  //$('.back_pijama').css("background-position", "25px " + y + "px");
+      //$('.bg-nuvem-arquitetura').css("background-position", "0px " + y + "px");
+    //}
+    //previousScroll = currentScroll;
+	
+	
+	var currentScroll = $(window).scrollTop(); // get current position
+
+    if (currentScroll >= fixmeTop) {           // apply position: fixed if you
+        $('#navArquitetura').css({                      // scroll to that element or below it
+            position: 'fixed',
+            top: '36%'
+        });
+    } else {                                   // apply position: static
+		$('#navArquitetura').css({                      // scroll to that element or below it
+            position: 'fixed',
+            top: ''
+        });
     }
-    previousScroll = currentScroll;
 
   });
+  
+  
+
+
+
 
   /**
    * Menus
@@ -77,7 +101,7 @@ $('.item-arquitetura').on('mouseenter', function(){
   /**
    * Carousel fotos
    */
-  $('.componente-fotos').not('.item-arquitetura .componente-fotos').owlCarousel({
+  $('.componente-fotos').not('.item-arquitetura .componente-fotos, #produtos .componente-fotos').owlCarousel({
     loop: true,
     items: 3,
     nav: true,
@@ -105,7 +129,120 @@ $('.item-arquitetura').on('mouseenter', function(){
     }
   });
   
+  
+  $('.festas .seta_rosa .componente-fotos').owlCarousel({
+    loop: true,
+    items: 2,
+    nav: true,
+    margin: 20,
+    dots: false,
+    navRewind: false,
+	navText: ["<img height='22px' src='img/seta_esquerda.png'>", "<img height='22px' src='img/seta_direita.png'>"],
+	responsive: {
+      0: {
+        items: 1,
+        nav: true
+      },
+      480: {
+        items: 1,
+        nav: true
+      },
+      600: {
+        items: 2,
+        nav: true
+      },
+      1000: {
+        items: 2,
+        nav: true
+      }
+    }
+  });
+  
+  $('.festas .seta_verde .componente-fotos').owlCarousel({
+    loop: true,
+    items: 2,
+    nav: true,
+    margin: 20,
+    dots: false,
+    navRewind: false,
+	navText: ["<img height='22px' src='img/seta_esquerda_verde.png'>", "<img height='22px' src='img/seta_direita_verde.png'>"],
+	responsive: {
+      0: {
+        items: 1,
+        nav: true
+      },
+      480: {
+        items: 1,
+        nav: true
+      },
+      600: {
+        items: 2,
+        nav: true
+      },
+      1000: {
+        items: 2,
+        nav: true
+      }
+    }
+  });
+  
+  $('.festas .seta_azul .componente-fotos').owlCarousel({
+    loop: true,
+    items: 2,
+    nav: true,
+    margin: 20,
+    dots: false,
+    navRewind: false,
+	navText: ["<img height='22px' src='img/seta_esquerda_azul.png'>", "<img height='22px' src='img/seta_direita_azul.png'>"],
+	responsive: {
+      0: {
+        items: 1,
+        nav: true
+      },
+      480: {
+        items: 1,
+        nav: true
+      },
+      600: {
+        items: 2,
+        nav: true
+      },
+      1000: {
+        items: 2,
+        nav: true
+      }
+    }
+  });
+  
   $('.item-arquitetura .componente-fotos').owlCarousel({
+    loop: true,
+    items: 3,
+    nav: true,
+    margin: 20,
+    dots: false,
+    navRewind: false,
+    navText: ["<img height='22px' src='img/seta_esquerda.png'>", "<img height='22px' src='img/seta_direita.png'>"],
+	responsive: {
+      0: {
+        items: 1,
+        nav: true
+      },
+      480: {
+        items: 1,
+        nav: true
+      },
+      600: {
+        items: 3,
+        nav: true
+      },
+      1000: {
+        items: 3,
+        nav: true
+      }
+    }
+  });
+  
+  $('#produtos .componente-fotos').owlCarousel({
     loop: true,
     items: 3,
     nav: true,

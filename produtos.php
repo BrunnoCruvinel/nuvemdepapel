@@ -10,11 +10,11 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-7 col-sm-7">
                 <div class="text-normal text-color-marrom espacamento_bottom">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin hendrerit eros. Aenean a bibendum arcu. Sed scelerisque vulputate viverra. Phasellus feugiat lacinia neque sed consequat. Aliquam porttitor consequat rhoncus. Nunc venenatis ante quis neque blandit varius. Suspendisse lacinia feugiat orci. Ut ut orci vitae ipsum tristique feugiat. Suspendisse arcu quam, tempus at odio et, venenatis sollicitudin enim. Maecenas fermentum lobortis nisl, ut rutrum orci. Nullam ut purus nisi. Suspendisse quis magna a urna porttitor dapibus non at tellus. Nulla.
                 </div>
-                <div class="row espacamento_bottom">
+                <div id="locacao_produtos" class="row espacamento_bottom">
                     <div class="col-md-12">
                         <div class="row">
                             <div class="col-md-6 text-left">
@@ -55,7 +55,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-5 text-center">
+            <div class="col-md-5 col-sm-5 text-right">
                 <img src="img/eu_quero_mas_nao_moro.png" alt="">
             </div>
         </div>
@@ -72,7 +72,7 @@
                 Fotos
             </div>
             <div class="row">
-                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <div class="col-md-10 col-sm-10 col-xs-10">
                     <?php require "fotos.php" ?>
                 </div>
             </div>
@@ -83,7 +83,7 @@
                 <div class="titulo-grande text-color-marrom">
                     Parceiros
                 </div>
-                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <div class="col-md-10 col-sm-10 col-xs-10">
                     <?php require "parceiros.php" ?>
                 </div>
             </div>

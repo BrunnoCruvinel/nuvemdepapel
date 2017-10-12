@@ -29,7 +29,7 @@
 #componente-depoimentos .usuario-depoimento {
     position: absolute;
     right: -135px;
-    top: 40px;
+    top: 30px;
     z-index:3;
 }
 
@@ -89,4 +89,8 @@
     width: 986px;
     margin-right: 10px;
     margin-bottom: 55px;
+}
+
+#produto #componente-depoimentos .usuario-depoimento{
+	right: -130px;
 }

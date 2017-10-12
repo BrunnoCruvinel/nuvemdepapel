@@ -300,12 +300,48 @@
 	border: 2px dashed #000000;
 }
 
+#produtos #componente-depoimentos .item-slide{
+	border: 2px dashed #000000;
+}
+
+#produtos #componente-depoimentos.owl-theme .owl-dots .owl-dot span{
+	background: url(../img/carrosel_marcador_azul.png) no-repeat !important;
+}
+
+#produtos #componente-depoimentos.owl-theme .owl-dots .owl-dot.active span{
+	background: url(../img/carrosel_marcador_marrom.png) no-repeat !important;
+}
+
+#produtos .componente-fotos-container{
+	border: 2px dashed #000000;
+}
+
+.festas .componente-fotos-container{
+	margin-left: 8% !important;
+}
+
+.festas .componente-fotos-container{
+	margin-right: 8% !important;
+}
+
+.festas .componente-fotos.owl-theme .owl-nav .owl-prev{
+	left: -11%;
+}
+
+.festas .componente-fotos.owl-theme .owl-nav .owl-next{
+	right: -11%;
+}
+
 .espacamento_top_pijama{
 		padding-top: 30px
 }
 
-#produtos .espacamento_top{
-	margin-left: -2%;
+#produtos .componente-fotos-container{
+	margin-left: 2%;
+}
+
+#produtos .componente-parceiros{
+	margin-left: 2%;
 }
 
 #locacao_produtos{
