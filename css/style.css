@@ -74,7 +74,7 @@
 }
 
 .text-minimo {
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .text-pequeno-destaque {
@@ -351,4 +351,22 @@
 
 #locacao_produtos .row{
 	margin-bottom: 30px;
+}
+
+.lupa_pesquisa_blog {
+    background: url(../img/lupa_blog.png) no-repeat right 17px center;
+    height: 30px;
+    width: 55px;
+    top: 23px;
+    position: absolute;
+    right: 25px;
+}
+
+.dashed_lupa{
+	background: url(../img/dashed_lupa.png) no-repeat right 17px center;
+    height: 30px;
+    width: 27px;
+    top: 25px;
+    position: absolute;
+    right: 61px;
 }
