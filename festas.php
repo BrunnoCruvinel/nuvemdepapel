@@ -1,9 +1,9 @@
 <?php require "header.php" ?>
 
-<section id="produtos">
+<section id="produtos" class="festas bg-nuvem-arquitetura">
     <div class="container">
         <div class="row espacamento_top">
-            <div class="col-md-12">
+            <div class="col-md-6">
                 <div class="titulo-grande text-color-marrom">
                     <span class="nuvem-aniversario">Festas</span>
                 </div>
@@ -22,7 +22,7 @@
                         <div class="text-normal">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin hendrerit eros. Aenean a bibendum arcu. Sed scelerisque vulputate viverra. Phasellus feugiat lacinia neque sed consequat. Aliquam porttitor consequat rhoncus. Nunc venenatis ante quis neque blandit varius. Suspendisse lacinia feugiat orci. Ut ut orci vitae ipsum tristique feugiat. Suspendisse arcu quam, tempus at odio et, venenatis sollicitudin enim.
                         </div>
-                        <div class="espacamento_top">
+                        <div class="espacamento_top seta_azul">
                             <?php require "fotos.php" ?>
                         </div>
                     </div>
@@ -36,7 +36,7 @@
                         <div class="text-normal">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin hendrerit eros. Aenean a bibendum arcu. Sed scelerisque vulputate viverra. Phasellus feugiat lacinia neque sed consequat. Aliquam porttitor consequat rhoncus. Nunc venenatis ante quis neque blandit varius. Suspendisse lacinia feugiat orci. Ut ut orci vitae ipsum tristique feugiat. Suspendisse arcu quam, tempus at odio et, venenatis sollicitudin enim.
                         </div>
-                        <div class="espacamento_top">
+                        <div class="espacamento_top seta_verde">
                             <?php require "fotos.php" ?>
                         </div>
                     </div>
@@ -50,14 +50,14 @@
                         <div class="text-normal">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin hendrerit eros. Aenean a bibendum arcu. Sed scelerisque vulputate viverra. Phasellus feugiat lacinia neque sed consequat. Aliquam porttitor consequat rhoncus. Nunc venenatis ante quis neque blandit varius. Suspendisse lacinia feugiat orci. Ut ut orci vitae ipsum tristique feugiat. Suspendisse arcu quam, tempus at odio et, venenatis sollicitudin enim.
                         </div>
-                        <div class="espacamento_top">
+                        <div class="espacamento_top seta_rosa">
                             <?php require "fotos.php" ?>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <div class="col-md-5 col-sm-5 col-xs-12 text-center">
+            <div class="col-md-5 col-sm-5 col-xs-12 text-right">
                 <img src="img/eu_quero_mas_nao_moro.png" alt="">
             </div>
         </div>
@@ -185,21 +185,6 @@
                             <img class="img-responsive" src="img/foto-personalizados.png" alt="">
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="espacamento_top espacamento_bottom">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="titulo-grande text-color-marrom">
-						Fotos
-					</div>
-				</div>
-			</div>
-            <div class="row">
-                <div class="col-md-10 col-sm-10 col-xs-10 fotos-carousel">
-                    <?php require "fotos.php" ?>
                 </div>
             </div>
         </div>

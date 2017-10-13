@@ -38,7 +38,8 @@
                     <div class="espacamento_bottom">
                         <div class="fundo-input">
                             <input class="input-customizado" type="text" placeholder="Pesquisar..." style="font-size:20px;">
-
+							<label class="dashed_lupa" style=""></label>
+							<label class="lupa_pesquisa_blog" style=""></label>
                         </div>
                     </div>
 
@@ -102,9 +103,9 @@
         </div>
 
         <div class="mais-post tracejado-azul">
-            <div class="row no-margin">
-                <div class="col-md-12 col-sm-12 col-sm-12 text-center">
-                    <a href=""><img src="img/nuvem_mais_posts.png" alt=""></a>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <a href=""><img src="img/nuvem_mais_posts.png" alt="" class="img-responsive"></a>
                 </div>
             </div>
         </div>

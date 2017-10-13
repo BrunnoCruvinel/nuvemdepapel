@@ -33,7 +33,8 @@
 }
 
 .bg-color-azul {
-  background-color: #B3DFEB;
+  /*background-color: #B3DFEB;*/
+  background-color: #98d3e5
 }
 
 .bg-color-verde {
@@ -73,7 +74,7 @@
 }
 
 .text-minimo {
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .text-pequeno-destaque {
@@ -217,16 +218,14 @@
 
 
 
-.nuvem-aniversario:before {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 100px;
-  height: 100px;
+.nuvem-aniversario {
+  min-width: 630px;
+  font-size: 70px;
   background: url("../img/destaque_titulo_3.png") no-repeat;
-  z-index: 2;
-  top: -49px;
-  left: -9px;
+  background-position: 15px 0px;
+  text-align: center;
+  padding: 3rem;
+  padding-top: 5rem;
 }
 
 .row{
@@ -299,4 +298,75 @@
 
 #arq #componente-depoimentos .item-slide{
 	border: 2px dashed #000000;
+}
+
+#produtos #componente-depoimentos .item-slide{
+	border: 2px dashed #000000;
+}
+
+#produtos #componente-depoimentos.owl-theme .owl-dots .owl-dot span{
+	background: url(../img/carrosel_marcador_azul.png) no-repeat !important;
+}
+
+#produtos #componente-depoimentos.owl-theme .owl-dots .owl-dot.active span{
+	background: url(../img/carrosel_marcador_marrom.png) no-repeat !important;
+}
+
+#produtos .componente-fotos-container{
+	border: 2px dashed #000000;
+}
+
+.festas .componente-fotos-container{
+	margin-left: 8% !important;
+}
+
+.festas .componente-fotos-container{
+	margin-right: 8% !important;
+}
+
+.festas .componente-fotos.owl-theme .owl-nav .owl-prev{
+	left: -11%;
+}
+
+.festas .componente-fotos.owl-theme .owl-nav .owl-next{
+	right: -11%;
+}
+
+.espacamento_top_pijama{
+		padding-top: 30px
+}
+
+#produtos .componente-fotos-container{
+	margin-left: 2%;
+}
+
+#produtos .componente-parceiros{
+	margin-left: 2%;
+}
+
+#locacao_produtos{
+	margin-left: -8%;
+    margin-right: -15%;
+}
+
+#locacao_produtos .row{
+	margin-bottom: 30px;
+}
+
+.lupa_pesquisa_blog {
+    background: url(../img/lupa_blog.png) no-repeat right 17px center;
+    height: 30px;
+    width: 55px;
+    top: 23px;
+    position: absolute;
+    right: 25px;
+}
+
+.dashed_lupa{
+	background: url(../img/dashed_lupa.png) no-repeat right 17px center;
+    height: 30px;
+    width: 27px;
+    top: 25px;
+    position: absolute;
+    right: 61px;
 }

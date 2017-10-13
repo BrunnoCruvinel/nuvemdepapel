@@ -85,10 +85,23 @@
     position: relative;
     display: block;
     width: 100%;
-    height: 2px;
-    background: url("../img/tracejado_azul.png") repeat-x;
+    height: 3px;
     z-index: 1;
     margin: 20px 0 20px 0;
+	border-top: 2px dashed #95d4e6;
+	border-radius: 10px;
+}
+
+.opcoes-comentario.text-pequeno{
+	margin-left: 3%;
+}
+
+.opcoes-comentario a{
+	padding: 5px;
+}
+
+.blog-post-comentar .row{
+	margin-left: -2%;
 }
 
 .post-compartilhar div {
