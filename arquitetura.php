@@ -1,4 +1,5 @@
-<?php require "header.php" ?>
+<?php /* Template Name: Arquitetura */ ?>
+<?php get_header() ?>
 
 <section id="arquitetura" class="bg-nuvem-arquitetura">
     <div class="container">
@@ -34,11 +35,11 @@
 		<div id="home-casa" class="espacamento_top">
 			<div class="row">
 				<div class="col-md-9 col-sm-9 col-xs-9">
-					<img class="img-responsive" src="img/casas.png" alt="">
+					<img class="img-responsive" src="<?php echo bloginfo("template_directory") ?>/img/casas.png" alt="">
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
 
-<?php require "footer.php" ?>
+<?php get_footer() ?>

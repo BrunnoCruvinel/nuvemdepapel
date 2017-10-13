@@ -112,31 +112,7 @@ function excerpt($limit, $ex="")
 
 // ***************   BANNER POST TYPE  ***************
 
-// add_action('init', 'banner');
-// function banner()
-// {
-//     register_post_type('banner', array(
-//
-//         'labels' => array(
-//             'name' => __('Banner'),
-//             'singular_name' => __('Banners')
-//         ),
-//         //'taxonomies' => array('category'),
-//         'public' => true,
-//         'publicly_queryable' => true,
-//         'show_ui' => true,
-//         'show_in_menu' => true,
-//         'query_var' => true,
-//         'capability_type' => 'post',
-//         'has_archive' => true,
-//         'hierarchical' => false,
-//         'menu_position' => null,
-//         'supports' => array('title', 'editor', 'thumbnail', 'custom-fields'),
-//         'menu_icon' => 'dashicons-share-alt2',
-//         )
-//
-//     );
-// }
+
 
 add_action('init', 'produtos');
 function produtos()
@@ -184,14 +160,63 @@ function depoimentos()
         'hierarchical' => false,
         'menu_position' => null,
         'supports' => array('title', 'editor', 'thumbnail', 'custom-fields'),
+        'menu_icon' => 'dashicons-admin-comments',
+        )
+
+    );
+}
+
+add_action('init', 'parceiros');
+function parceiros()
+{
+    register_post_type('parceiros', array(
+
+        'labels' => array(
+            'name' => __('Parceiros'),
+            'singular_name' => __('Parceiro')
+        ),
+        //'taxonomies' => array('category'),
+        'public' => true,
+        'publicly_queryable' => true,
+        'show_ui' => true,
+        'show_in_menu' => true,
+        'query_var' => true,
+        'capability_type' => 'post',
+        'has_archive' => true,
+        'hierarchical' => false,
+        'menu_position' => null,
+        'supports' => array('title', 'editor', 'thumbnail', 'custom-fields'),
         'menu_icon' => 'dashicons-admin-users',
         )
 
     );
 }
 
+add_action('init', 'fotos');
+function fotos()
+{
+    register_post_type('fotos', array(
 
+        'labels' => array(
+            'name' => __('Fotos'),
+            'singular_name' => __('Foto')
+        ),
+        //'taxonomies' => array('category'),
+        'public' => true,
+        'publicly_queryable' => true,
+        'show_ui' => true,
+        'show_in_menu' => true,
+        'query_var' => true,
+        'capability_type' => 'post',
+        'has_archive' => true,
+        'hierarchical' => false,
+        'menu_position' => null,
+        'supports' => array('title', 'editor', 'thumbnail', 'custom-fields'),
+        'menu_icon' => 'dashicons-share-alt2',
+        )
 
+    );
+}
 
 // *****************  PAGER  ********************
 function wp_pagination()

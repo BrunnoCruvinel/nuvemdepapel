@@ -84,7 +84,7 @@ $('.item-arquitetura').on('mouseenter', function(){
     margin: 20,
     dots: false,
     navRewind: false,
-    navText: ["<img height='22px' src='img/seta-branca-esquerda.png'>", "<img height='22px' src='img/seta-branca-direita.png'>"],
+    navText: ["<img height='22px' src='/wp-content/themes/nuvens/img/seta-branca-esquerda.png'>", "<img height='22px' src='/wp-content/themes/nuvens/img/seta-branca-direita.png'>"],
 	responsive: {
       0: {
         items: 1,
@@ -104,7 +104,7 @@ $('.item-arquitetura').on('mouseenter', function(){
       }
     }
   });
-  
+
   $('.item-arquitetura .componente-fotos').owlCarousel({
     loop: true,
     items: 3,
@@ -112,7 +112,7 @@ $('.item-arquitetura').on('mouseenter', function(){
     margin: 20,
     dots: false,
     navRewind: false,
-    navText: ["<img height='22px' src='img/seta_esquerda.png'>", "<img height='22px' src='img/seta_direita.png'>"],
+    navText: ["<img height='22px' src='/wp-content/themes/nuvens/img/seta_esquerda.png'>", "<img height='22px' src='/wp-content/themes/nuvens/img/seta_direita.png'>"],
 	responsive: {
       0: {
         items: 1,
@@ -149,7 +149,7 @@ $('#slideNuvem').owlCarousel({
     margin: 30,
     dots: false,
     navRewind: false,
-    navText: ["<img src='img/seta_esquerda.png'>", "<img src='img/seta_direita.png'>"],
+    navText: ["<img src='/wp-content/themes/nuvens/img/seta_esquerda.png'>", "<img src='/wp-content/themes/nuvens/img/seta_direita.png'>"],
     responsive: {
       0: {
         items: 1,
