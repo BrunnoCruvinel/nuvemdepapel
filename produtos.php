@@ -157,10 +157,14 @@
 					<!--end modal-body-->
 					</div>
 					<div class="modal-footer">
-						<div class="pull-left">
-							
+						<div class="col-mod-12">
+							<a href="#myGallery" role="button" data-slide="prev">
+								<img src="img/prev_prod_thumb.png">
+							</a>
+							<a href="#myGallery" role="button" data-slide="next">
+								<img src="img/next_prod_thumb.png">
+							</a>
 						</div>
-						<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
 						<!--end modal-footer-->
 					</div>
 					<!--end modal-content-->
