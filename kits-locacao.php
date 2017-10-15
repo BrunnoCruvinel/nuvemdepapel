@@ -1,4 +1,5 @@
-<?php require "header.php" ?>
+<?php /* Template Name: Kits Locação */ ?>
+<?php get_header() ?>
 
 <section id="kit-locacao" class="bg-nuvem-arquitetura">
     <div class="container">
@@ -82,4 +83,4 @@
 
 </section>
 
-<?php require "footer.php" ?>
+<?php get_footer() ?>
