@@ -1,6 +1,6 @@
 <?php require "header.php" ?>
 
-    <section id="blog" class="espacamento_bottom bg-nuvem-blog">
+    <section id="blog" class="espacamento_bottom bg-nuvem-arquitetura">
         <div class="container espacamento_bottom">
 
             <div class="row">
@@ -43,7 +43,7 @@
                                 <div class="titulo-medio-pequeno">10 Comentários</div>
                             </div>
                             <div class="col-md-4 text-right">
-                                <div class="titulo-medio-pequeno">Entrar <img src="img/seta_baixo.png" alt=""></div>
+                                <div class="titulo-medio-pequeno"><a href="" >Entrar</a> <img src="img/seta_baixo.png" alt=""></div>
                             </div>
                         </div>
 
@@ -51,13 +51,13 @@
 
                         <div class="row text-pequeno-destaque text-color-marrom espacamento_bottom_pequeno">
                             <div class="col-md-3">
-                                <img src="img/recomendar.png"> <small>Recomentar</small>
+                                <img src="img/recomendar.png"> <small><a href="" >Recomentar</a></small>
                             </div>
                             <div class="col-md-3">
-                                <img src="img/comparilhar.png" alt=""><small> Compartilhar</small>
+                                <img src="img/comparilhar.png" alt=""><small> <a href="" >Compartilhar</a></small>
                             </div>
                             <div class="col-md-6 text-right">
-                                <small> Ordernar por mais votados</small>
+                                <small> <a href="" >Ordernar por mais votados</a></small>
                                 <img src="img/seta_baixo.png" alt="">
                             </div>
                         </div>
@@ -77,9 +77,12 @@
                             </div>
                             <div class="col-md-10">
                                 <div class="row">
-                                    <div class="col-md-12 text-color-marrom titulo-pequeno">
+                                    <div class="col-md-5 text-color-marrom titulo-pequeno">
                                         Ektor Bonilha
                                     </div>
+									<div class="comentario_tempo col-md-7 text-color-rosa">
+    									5 dias atrás
+    								</div>
                                 </div>
 
                                 <div class="row">
@@ -87,11 +90,13 @@
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in.
                                     </div>
                                     <div class="opcoes-comentario text-pequeno">
-                                        <a href=""><img src="img/seta_baixo.png" alt=""></a>
+                                        <a href=""><img src="img/seta_cima.png" alt=""></a>
                                         <span class="text-color-azul">|</span>
                                         <a href=""><img src="img/seta_baixo.png" alt=""></a>
-                                        <small><span>Responder</span></small>
-                                        <small><span>Compartilhar</span></small>
+                                        <small><img class="dot_responder" src="img/dot_blog.png" style="/* margin-left: 5px; */ /* margin-right: 10px; */">
+										<span><a href="" >Responder</a></span></small>
+                                        <small><img class="dot_compartilhar" src="img/dot_blog.png" style="/* margin-left: 5px; */ /* margin-right: 10px; */">
+										<span><a href="" >Compartilhar</a></span></small>
                                     </div>
                                 </div>
                             </div>

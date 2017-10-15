@@ -58,6 +58,9 @@
    </section>
 
   	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/lightbox.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
     <script src="js/plugins/owl-carousel/dist/owl.carousel.min.js"></script>
 
    <div id="fb-root"></div>

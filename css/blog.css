@@ -116,8 +116,50 @@
     margin: 0 !important;
 }
 
+.comentario .titulo-pequeno{
+	font-weight: bold;
+}
+
 #input-comentario {
     width: 100%;
     border: 2px dashed #95d4e6;
     border-radius: 10px;
+	height: 65px;
+}
+
+.comentario_tempo{
+	font-size: 20px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
+}
+
+.blog-post-comentar .col-md-10{
+	margin-left: -1%;
+}
+
+.espacamento_top_pequeno .col-md-10{
+	margin-left: -1%;
+}
+
+.blog-post-comentar .col-md-12{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.blog-post-comentar img{
+	margin-top: 5px;
+}
+
+.opcoes-comentario small{
+	margin-right: 15px;
+}
+
+.dot_responder{
+	margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dot_compartilhar{
+	margin-left: 10px;
+    margin-right: 15px;
 }
