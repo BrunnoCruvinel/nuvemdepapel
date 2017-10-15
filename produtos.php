@@ -22,29 +22,29 @@
                                     <img src="img/imagem_produto_1.png" alt="">
                                 </a>
                             </div>
-                            <div class="col-md-6 text-right">
-                                <a href="javascript:void(0)">
+                            <div class="col-md-6 text-right" data-toggle="modal" data-target="#myModal">
+                                <a href="#myGallery" data-slide-to="0">
                                     <img src="img/imagem_produto_2.png" alt="">
                                 </a>
                             </div>
                         </div>
 
                         <div class="row">
-                            <div class="col-md-6">
-                                <a href="javascript:void(0)">
+                            <div class="col-md-6" data-toggle="modal" data-target="#myModal">
+                                <a href="#myGallery" data-slide-to="0">
                                     <img src="img/imagem_produto_3.png" alt="">
                                 </a>
                             </div>
-                            <div class="col-md-6">
-                                <a href="javascript:void(0)">
+                            <div class="col-md-6" data-toggle="modal" data-target="#myModal">
+                                <a href="#myGallery" data-slide-to="0">
                                     <img src="img/imagem_produto_4.png" alt="">
                                 </a>
                             </div>
                         </div>
 
                         <div class="row">
-                            <div class="col-md-6">
-                                <a href="javascript:void(0)">
+                            <div class="col-md-6" data-toggle="modal" data-target="#myModal">
+                                <a href="#myGallery" data-slide-to="0">
                                     <img src="img/imagem_produto_5.png" alt="">
                                 </a>
                             </div>
@@ -124,7 +124,24 @@
 										</div>
 									</div>
 								</div>
-								<div class="item"> <img src="img/imagem_produto_2.png" alt="item1">
+								<div class="item"> 
+									<div class="col-md-5 col-sm-5 col-xs-5">
+										<img src="img/produto_modal_1.png" alt="item0">
+									</div>
+									<div class="col-md-7 col-sm-7 col-xs-7">
+										<span class="titulo-medio text-color-marrom">
+											Produtos
+										</span>
+										<div class="text-normal text-color-marrom espacamento_top_pijama">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin hendrerit eros. Aenean a bibendum arcu. Sed scelerisque vulputate viverra. Phasellus feugiat lacinia neque sed consequat. Aliquam porttitor consequat rhoncus. Nunc venenatis ante quis neque blandit varius. Suspendisse lacinia feugiat orci. Ut ut orci vitae ipsum tristique feugiat.
+										</div>
+										<div class="text-normal text-color-marrom espacamento_top_pijama">
+											<strong>Medidas</strong></br>
+										</div>
+										<div class="text-normal text-color-marrom margin_top_10">
+											80cm x 120cm
+										</div>
+									</div>
 								</div>
 								<!--end carousel-inner-->
 							</div>
