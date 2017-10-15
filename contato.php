@@ -46,7 +46,7 @@
                         </div>
 
                         <div class="col-md-6 col-sm-6">
-                          <div class="fundo-input">
+                          <div class="fundo-input text_area_margin">
                             <textarea name="" id="contato-mensagem" class="input-customizado textarea-customizado" placeholder="Mensagem"></textarea>
                           </div>
                         </div>

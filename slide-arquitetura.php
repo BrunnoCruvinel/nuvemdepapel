@@ -23,7 +23,7 @@
     <div id="oqf" class="item-arquitetura" data-marcador="teste">
         <div class="row text-normal text-color-marrom">
             <div class="col-md-4 col-sm-4 col-xs-12 col-lg-4">
-                <img src="img/nuvem_que_fazemos.png" alt="">
+                <img class="img-responsive" src="img/nuvem_que_fazemos.png" alt="">
             </div>
             <div class="col-md-7 col-sm-7 col-xs-12 col-lg-7">
                 <div>
@@ -48,7 +48,7 @@
     <div id="cf" class="item-arquitetura">
         <div class="row text-normal text-color-marrom">
             <div class="col-md-4 col-sm-4 col-xs-12 col-lg-4">
-                <img src="img/nuvem_como_funciona.png" alt="">
+                <img class="img-responsive" src="img/nuvem_como_funciona.png" alt="">
             </div>
             <div class="col-md-7 col-sm-7 col-xs-12 col-lg-7">
                 <div>
@@ -63,13 +63,13 @@
         </div>
         <div class="row arquitetura-que-fazemos">
             <div class="col-md-4 col-sm-4">
-                <img src="img/reorganizacao.png">
+                <img class="img-responsive" src="img/reorganizacao.png">
             </div>
             <div class="col-md-4 col-sm-4">
-                <img src="img/repaginada.png">
+                <img class="img-responsive" src="img/repaginada.png">
             </div>
             <div class="col-md-4 col-sm-4">
-                <img src="img/projeto_reforma.png">
+                <img class="img-responsive" src="img/projeto_reforma.png">
             </div>
         </div>
     </div>
@@ -77,7 +77,7 @@
     <div id="extras" class="item-arquitetura">
         <div class="row text-normal text-color-marrom">
             <div class="col-md-4 col-sm-4 col-xs-12 col-lg-4">
-                <img src="img/estras.png" alt="">
+                <img class="img-responsive" src="img/estras.png" alt="">
             </div>
             <div class="col-md-7 col-sm-7 col-xs-12 col-lg-7">
                 <div class="row espacamento-texto-paragrafo">

@@ -25,12 +25,12 @@
                         <div class="row">
                             <div class="col-md-6 text-left" data-toggle="modal" data-target="#myModal">
                                 <a href="#myGallery" data-slide-to="0">
-                                    <img src="img/imagem_produto_1.png" alt="">
+                                    <img class="img-responsive" src="img/imagem_produto_1.png" alt="">
                                 </a>
                             </div>
                             <div class="col-md-6 text-right" data-toggle="modal" data-target="#myModal">
                                 <a href="#myGallery" data-slide-to="0">
-                                    <img src="img/imagem_produto_2.png" alt="">
+                                    <img class="img-responsive" src="img/imagem_produto_2.png" alt="">
                                 </a>
                             </div>
                         </div>
@@ -38,12 +38,12 @@
                         <div class="row">
                             <div class="col-md-6" data-toggle="modal" data-target="#myModal">
                                 <a href="#myGallery" data-slide-to="0">
-                                    <img src="img/imagem_produto_3.png" alt="">
+                                    <img class="img-responsive" src="img/imagem_produto_3.png" alt="">
                                 </a>
                             </div>
                             <div class="col-md-6" data-toggle="modal" data-target="#myModal">
                                 <a href="#myGallery" data-slide-to="0">
-                                    <img src="img/imagem_produto_4.png" alt="">
+                                    <img class="img-responsive" src="img/imagem_produto_4.png" alt="">
                                 </a>
                             </div>
                         </div>
@@ -51,7 +51,7 @@
                         <div class="row">
                             <div class="col-md-6" data-toggle="modal" data-target="#myModal">
                                 <a href="#myGallery" data-slide-to="0">
-                                    <img src="img/imagem_produto_5.png" alt="">
+                                    <img class="img-responsive" src="img/imagem_produto_5.png" alt="">
                                 </a>
                             </div>
                             <div class="col-md-6">
@@ -62,7 +62,7 @@
                 </div>
             </div>
             <div class="col-md-5 col-sm-5 text-right">
-                <img src="img/entrega_somente_floripa.png" alt="">
+                <img class="img-responsive" src="img/entrega_somente_floripa.png" alt="">
             </div>
         </div>
 
@@ -93,14 +93,14 @@
 						<div class="border_dashed">
 						<div class="modal_nuvem_prod">
 							<span class="text-medio text-color-marrom">Produto 1</span>
-							<img src="img/nuvem_produto_1.png">
+							<img class="img-responsive" src="img/nuvem_produto_1.png">
 						</div>
 						<!--begin carousel-->
 						<div id="myGallery" class="carousel slide" data-interval="false">
 							<div class="carousel-inner">
 								<div class="item active"> 
 									<div class="col-md-5 col-sm-5 col-xs-5">
-										<img src="img/produto_modal_1.png" alt="item0">
+										<img class="img-responsive" src="img/produto_modal_1.png" alt="item0">
 									</div>
 									<div class="col-md-7 col-sm-7 col-xs-7">
 										<span class="titulo-medio text-color-marrom">
@@ -119,7 +119,7 @@
 								</div>
 								<div class="item"> 
 									<div class="col-md-5 col-sm-5 col-xs-5">
-										<img src="img/produto_modal_1.png" alt="item0">
+										<img class="img-responsive" src="img/produto_modal_1.png" alt="item0">
 									</div>
 									<div class="col-md-7 col-sm-7 col-xs-7">
 										<span class="titulo-medio text-color-marrom">
@@ -150,7 +150,7 @@
 					<!--end modal-body-->
 					</div>
 					<div class="modal-footer">
-						<div class="col-mod-12">
+						<div class="col-md-12 col-sm-12 col-xs-12">
 							<a href="#myGallery" role="button" data-slide="prev">
 								<img src="img/prev_prod_thumb.png">
 							</a>
