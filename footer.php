@@ -59,6 +59,10 @@
 
   	<script type="text/javascript" src="<?php echo bloginfo("template_directory") ?>/js/main.js"></script>
     <script src="<?php echo bloginfo("template_directory") ?>/js/plugins/owl-carousel/dist/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="<?php echo bloginfo("template_directory") ?>/js/lightbox.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="js/plugins/owl-carousel/dist/owl.carousel.min.js"></script>
 
    <div id="fb-root"></div>
    <script>(function(d, s, id) {

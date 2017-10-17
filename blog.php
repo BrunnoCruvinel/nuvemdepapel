@@ -105,7 +105,7 @@
         <div class="mais-post tracejado-azul">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <a href=""><img src="img/nuvem_mais_posts.png" alt="" class="img-responsive"></a>
+                    <a href="blog-post.php"><img src="img/nuvem_mais_posts.png" alt="" class="img-responsive"></a>
                 </div>
             </div>
         </div>
