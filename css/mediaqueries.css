@@ -160,6 +160,35 @@
 	.blog-post-comentar{
 		margin-bottom: 30px;
 	}
+	
+	.menu-pesquisa{
+		display: none;
+	}
+	
+	.menu-items.menu-destaque{
+		display: none;
+	}
+	
+	.logo-menu{
+		display: block;
+	}
+	
+	.mais .glyphicon-menu-hamburger{
+		
+		font-size: 40px;
+		margin-top: 65px;
+		color: #F2999F;
+	}
+	
+	#menu .menu a{
+		text-decoration: none;
+		color: #F2999F;
+		font-family: 'Amatic SC', cursive;
+	}
+	.menu.menu-item.text-medio{
+		text-align: center;
+		font-size: 30px;
+	}
 }
 }
 
