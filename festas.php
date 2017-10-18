@@ -11,19 +11,17 @@
             </div>
         </div>
 
-    <?php $f = get_post(45); echo $f->post_content;?>
-
-
+        <?php $f = get_post(45); echo $f->post_content;?>
 
                 <div class="espacamento_top espacamento_bottom">
-        			<div class="row">
-        				<div class="col-md-12">
-        					<div class="titulo-grande text-color-marrom">
-        						Depoimentos
-        					</div>
-        				</div>
-        			</div>
-                    <?php require "depoimentos.php" ?>
+            			<div class="row">
+            				<div class="col-md-12">
+            					<div class="titulo-grande text-color-marrom">
+            						Depoimentos
+            					</div>
+            				</div>
+            			</div>
+                        <?php require "depoimentos.php" ?>
                 </div>
 
         <div class="espacamento_top espacamento_bottom">

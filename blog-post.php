@@ -25,7 +25,7 @@
                         <img class="img-responsive" src="img/foto-urso.png" alt="">
                         <div class="post-compartilhar">
                             <div class="text-pequeno text-color-marrom post-tracejado text-right">
-                                Compartilhar: <a href=""><img src="img/comparilhar.png" alt=""></a>
+                                Compartilhar: <a href=""><img class="img-responsive"  src="img/comparilhar.png" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -39,45 +39,45 @@
                         </div>
 
                         <div class="row espacamento_top_pequeno">
-                            <div class="col-md-8">
+                            <div class="col-md-8 col-sm-8 col-xs-8">
                                 <div class="titulo-medio-pequeno">10 Comentários</div>
                             </div>
-                            <div class="col-md-4 text-right">
-                                <div class="titulo-medio-pequeno"><a href="" >Entrar</a> <img src="img/seta_baixo.png" alt=""></div>
+                            <div class="col-md-4 col-sm-4 col-xs-4 text-right">
+                                <div class="titulo-medio-pequeno"><a href="" >Entrar</a> <img  src="img/seta_baixo.png" alt=""></div>
                             </div>
                         </div>
 
                         <hr>
 
                         <div class="row text-pequeno-destaque text-color-marrom espacamento_bottom_pequeno">
-                            <div class="col-md-3">
-                                <img src="img/recomendar.png"> <small><a href="" >Recomentar</a></small>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <img class="img-responsive"  src="img/recomendar.png"> <small><a href="" >Recomentar</a></small>
                             </div>
-                            <div class="col-md-3">
-                                <img src="img/comparilhar.png" alt=""><small> <a href="" >Compartilhar</a></small>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <img class="img-responsive"  src="img/comparilhar.png" alt=""><small> <a href="" >Compartilhar</a></small>
                             </div>
-                            <div class="col-md-6 text-right">
+                            <div class="col-md-6 col-sm-6 col-xs-6 text-right">
                                 <small> <a href="" >Ordernar por mais votados</a></small>
-                                <img src="img/seta_baixo.png" alt="">
+                                <img  src="img/seta_baixo.png" alt="">
                             </div>
                         </div>
 
                         <div class="row espacamento_bottom_pequeno">
-                            <div class="col-md-2">
-                                <img src="img/avatar-vazio.png" style="width: 64px;">
+                            <div class="col-md-2 col-sm-2 col-xs-2">
+                                <img class="img-responsive"  src="img/avatar-vazio.png" style="width: 64px;">
                             </div>
-                            <div class="col-md-10 text-normal text-color-marrom">
+                            <div class="col-md-10 col-sm-10 col-xs-10 text-normal text-color-marrom">
                                 <textarea id="input-comentario" name="comentario" placeholder="Participe da discussão"></textarea>
                             </div>
                         </div>
 
                         <div class="row blog-post-comentar">
-                            <div class="col-md-2">
-                                <img src="img/avatar.png">
+                            <div class="col-md-2 col-sm-2 col-xs-2">
+                                <img class="img-responsive"  src="img/avatar.png">
                             </div>
-                            <div class="col-md-10">
+                            <div class="col-md-10 col-sm-10 col-xs-10">
                                 <div class="row">
-                                    <div class="col-md-5 text-color-marrom titulo-pequeno">
+                                    <div class="col-md-5 col-sm-5 col-xs-5 text-color-marrom titulo-pequeno">
                                         Ektor Bonilha
                                     </div>
 									<div class="comentario_tempo col-md-7 text-color-rosa">

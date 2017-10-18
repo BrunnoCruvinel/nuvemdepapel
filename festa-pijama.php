@@ -24,7 +24,7 @@
         <div class="row">
             <div class="col-md-12 nossa_festa_pijama">
 				<div class="col-md-12 espacamento_kits_top"></div>
-				<div class="col-md-6 text-pequeno-destaque text-color-marrom">
+				<div class="col-md-6 col-sm-6 col-xs-6 text-pequeno-destaque text-color-marrom">
 					<div class="col-md-12 espacamento_kits_bottom">
 						- CONVITES EXCLUSIVOS 
 					</div>
@@ -42,7 +42,7 @@
 						- KIT PIJAMAS + MÁSCARAS (LEMBRANCINHA!)
 					</div>
 				</div>
-				<div class="col-md-6 text-pequeno-destaque text-color-marrom">
+				<div class="col-md-6 col-sm-6 col-xs-6 text-pequeno-destaque text-color-marrom">
 					<div class="col-md-12 espacamento_kits_bottom">
 						- KIT HIGIENE: KIT NECESSAIRE, ESCOVA DE DENTES E PASTA DE DENTES (LEMBRANCIANHA!)
 					</div>

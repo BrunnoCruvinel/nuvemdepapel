@@ -89,7 +89,7 @@
             </div>
         </div>
 		
-		<!--begin modal window-->
+				<!--begin modal window-->
 		<div class="modal fade" id="myModal">
 			<div class="modal-dialog">
 				<div class="modal-content">
@@ -100,14 +100,14 @@
 						<div class="border_dashed">
 						<div class="modal_nuvem_prod">
 							<span class="text-medio text-color-marrom">Produto 1</span>
-							<img src="img/nuvem_produto_1.png">
+							<img class="img-responsive" src="img/nuvem_produto_1.png">
 						</div>
 						<!--begin carousel-->
 						<div id="myGallery" class="carousel slide" data-interval="false">
 							<div class="carousel-inner">
 								<div class="item active"> 
 									<div class="col-md-5 col-sm-5 col-xs-5">
-										<img src="img/produto_modal_1.png" alt="item0">
+										<img class="img-responsive" src="img/produto_modal_1.png" alt="item0">
 									</div>
 									<div class="col-md-7 col-sm-7 col-xs-7">
 										<span class="titulo-medio text-color-marrom">
@@ -126,7 +126,7 @@
 								</div>
 								<div class="item"> 
 									<div class="col-md-5 col-sm-5 col-xs-5">
-										<img src="img/produto_modal_1.png" alt="item0">
+										<img class="img-responsive" src="img/produto_modal_1.png" alt="item0">
 									</div>
 									<div class="col-md-7 col-sm-7 col-xs-7">
 										<span class="titulo-medio text-color-marrom">
@@ -157,7 +157,7 @@
 					<!--end modal-body-->
 					</div>
 					<div class="modal-footer">
-						<div class="col-mod-12">
+						<div class="col-md-12 col-sm-12 col-xs-12">
 							<a href="#myGallery" role="button" data-slide="prev">
 								<img src="img/prev_prod_thumb.png">
 							</a>
