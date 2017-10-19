@@ -114,10 +114,10 @@ function excerpt($limit, $ex="")
 
 
 
-add_action('init', 'produtos');
-function produtos()
+add_action('init', 'produto');
+function produto()
 {
-    register_post_type('produtos', array(
+    register_post_type('produto', array(
 
         'labels' => array(
             'name' => __('Produtos'),
@@ -135,6 +135,32 @@ function produtos()
         'menu_position' => null,
         'supports' => array('title', 'editor', 'thumbnail', 'custom-fields'),
         'menu_icon' => 'dashicons-products',
+        )
+
+    );
+}
+
+add_action('init', 'kits');
+function kits()
+{
+    register_post_type('kits', array(
+
+        'labels' => array(
+            'name' => __('Kits'),
+            'singular_name' => __('Kit')
+        ),
+        //'taxonomies' => array('category'),
+        'public' => true,
+        'publicly_queryable' => true,
+        'show_ui' => true,
+        'show_in_menu' => true,
+        'query_var' => true,
+        'capability_type' => 'post',
+        'has_archive' => true,
+        'hierarchical' => false,
+        'menu_position' => null,
+        'supports' => array('title', 'editor', 'thumbnail', 'custom-fields'),
+        'menu_icon' => 'dashicons-grid-view',
         )
 
     );
