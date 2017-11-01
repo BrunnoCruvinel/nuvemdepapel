@@ -48,9 +48,12 @@ $(document).ready(function() {
   /**
    * Menus
    */
+   $('.glyphicon-menu-hamburger').on('click', function() {
+      $('#menuMobile').slideToggle();
+   });
+
   $(".menu-items .botao-menu-responsivo").on('click', function() {
     $(".menu-items").addClass('menu-responsive');
-    console.log('aq');
     $(".menu-items ul.menu-item").slideToggle('slow');
   });
 

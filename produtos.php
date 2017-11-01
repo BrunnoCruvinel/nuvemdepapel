@@ -32,19 +32,19 @@
                              if ($i%2==0):
                            ?>
 
-                          <div class="col-md-6 text-left" data-toggle="modal" data-target="#myModal">
-                            <a href="#myGallery" data-slide-to="<?php echo $i ?>">
-                                <img class="img-responsive" src="<?php echo $thum ?>">
-                            </a>
-                          </div>
+                           <div class="col-md-6 text-left">
+                             <a href="<?php the_permalink() ?>">
+                                 <img class="img-responsive" src="<?php echo $thum ?>">
+                             </a>
+                           </div>
 
-                          <?php else: ?>
+                           <?php else: ?>
 
-                            <div class="col-md-6 text-right" data-toggle="modal" data-target="#myModal">
-                              <a href="#myGallery" data-slide-to="<?php echo $i ?>">
-                                <img class="img-responsive" src="<?php echo $thum ?>">
-                              </a>
-                            </div>
+                             <div class="col-md-6 text-right">
+                               <a href="<?php the_permalink() ?>">
+                                 <img class="img-responsive" src="<?php echo $thum ?>">
+                               </a>
+                             </div>
                       </div>
 
                       <div class="row">

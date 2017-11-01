@@ -1,4 +1,5 @@
-<?php require "header.php" ?>
+<?php /* Template Name: A Nuvem */ ?>
+<?php get_header() ?>
 
     <section id="anuvem" class="bg-nuvens bg-nuvem-arquitetura">
 
@@ -15,11 +16,7 @@
                 <div class="row espacamento_bottom">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="text-normal text-color-marrom">
-                            <p>Era uma vez duas mães, uma arquiteta especializada em projetar ambientes infantis de muita personalizade e bom gosto, e outra publicitária, com talento e sensibilidade especiais para o design gráfico e muita experiência em identidade visual. Um dia, elass e encontraram e descobriram que tinham muito em comum: a paixão por todo esse universo lúdico que veio com seus filhos e as festas que realizavam para eles.</p>
-                            <br>
-                            <p>Decidiram então aplicar todo seus conhecimentos e talentos juntas, para criar e produzir festas infantis encantadoras, personalizadas e cheias de charme.</p>
-                            <br>
-                            <p>Assim nasceu a Nuvens de papel, uma oficina onde chovem ideias para realizar sonhos e produzir momentos divertidos e inesquecíveis...</p>
+                            <?php the_content() ?>
                         </div>
                     </div>
                 </div>
@@ -28,7 +25,7 @@
             <section>
                 <div class="row espacamento_top">
                     <div class="col-md-10 col-sm-10 col-xs-10 text-left">
-                        <img class="img-responsive" src="img/quem-somos-2.png " alt="">
+                        <img class="img-responsive" src="<?php echo bloginfo("template_directory") ?>/img/quem-somos-2.png " alt="">
                     </div>
                 </div>
 
@@ -36,7 +33,7 @@
                     <div class="col-md-6 col-sm-6-col-xs-6">
                         <div class="row">
                             <div class="col-md-4 col-sm-4 col-xs-4">
-                                <img class="img-responsive" src="img/quem_somos_1.png" alt="">
+                                <img class="img-responsive" src="<?php echo bloginfo("template_directory") ?>/img/quem_somos_1.png" alt="">
                             </div>
                             <div class="col-md-8 col-sm-8 col-xs-8">
                                 <div class="text-medio text-color-marrom ">
@@ -53,7 +50,7 @@
                     <div class="col-md-6 col-sm-6-col-xs-6">
                         <div class="row">
                             <div class="col-md-4 col-sm-4 col-xs-4">
-                                <img class="img-responsive" src="img/quem_somos_2.png" alt="">
+                                <img class="img-responsive" src="<?php echo bloginfo("template_directory") ?>/img/quem_somos_2.png" alt="">
                             </div>
                             <div class="col-md-8 col-sm-8 col-xs-8">
                                 <div class="text-medio text-color-marrom">
@@ -86,11 +83,11 @@
 			<div id="home-casa" class="espacamento_top">
 				<div class="row">
 					<div class="col-md-9 col-sm-9 col-xs-9">
-						<img class="img-responsive" src="img/casas.png" alt="">
+						<img class="img-responsive" src="<?php echo bloginfo("template_directory") ?>/img/casas.png" alt="">
 					</div>
 				</div>
 			</div>
 		</div>
     </section>
 
-<?php require "footer.php" ?>
+<?php get_footer() ?>
