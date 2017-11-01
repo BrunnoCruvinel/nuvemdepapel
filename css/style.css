@@ -316,6 +316,21 @@
 	border: 2px dashed #000000;
 }
 
+#pijama #componente-depoimentos .item-slide{
+	border: 2px dashed #FFFFFF;
+}
+
+.fotos_galeria{
+	width: 224px;
+}
+.festas .fotos_galeria{
+	width: 200px;
+}
+
+.margin_kits_entrega{
+	margin-left: 60px;
+}
+
 .festas .componente-fotos-container{
 	margin-left: 8% !important;
 }
@@ -491,4 +506,12 @@
     height: 21px;
     width: 21px;
     left: 10px;
+}
+
+.modal-footer{
+	text-align: center;
+}
+
+.lightbox{
+	cursor: pointer;
 }

@@ -63,10 +63,9 @@
 
               </div>
             </div>
-          </div>
-          <div class="col-md-5 col-sm-5 text-right">
-            <img class="img-responsive" src="<?php echo bloginfo(" template_directory ") ?>/img/entrega_somente_floripa.png" alt="">
-          </div>
+            <div class="col-md-5 col-sm-5 text-right">
+                <img class="img-responsive margin_kits_entrega" src="<?php echo bloginfo("template_directory") ?>/img/entrega_somente_floripa.png" alt="">
+            </div>
         </div>
 
         <div class="espacamento_top espacamento_bottom">

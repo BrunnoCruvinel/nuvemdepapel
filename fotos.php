@@ -14,7 +14,7 @@
         <div class="item">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                    <img src="<?php echo $thumbp ?>" alt="">
+                    <img src="<?php echo $thumbp ?>" class="fotos_galeria">
                 </div>
             </div>
         </div>
