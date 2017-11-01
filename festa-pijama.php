@@ -1,6 +1,6 @@
 <?php require "header.php" ?>
 
-<section id="produtos" class="bg-color-azul bg-nuvem-festa-pijama back_pijama" style="background-position: 25px 75px">
+<section id="produtos pijama" class="bg-color-azul bg-nuvem-festa-pijama back_pijama" style="background-position: 25px 75px">
     <div class="container">
 
         <div class="row espacamento_top_pijama">

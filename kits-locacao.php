@@ -62,7 +62,7 @@
                 </div>
             </div>
             <div class="col-md-5 col-sm-5 text-right">
-                <img class="img-responsive" src="img/entrega_somente_floripa.png" alt="">
+                <img class="img-responsive margin_kits_entrega" src="img/entrega_somente_floripa.png" alt="">
             </div>
         </div>
 

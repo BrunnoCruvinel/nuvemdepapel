@@ -47,7 +47,7 @@
                                     <li><a href="arquitetura.php">ARQUITETURA</a></li>
                                     <li><a href="festa-pijama.php">FESTA PIJAMA</a></li>
                                     <li><a href="festas.php">FESTAS</a></li>
-                                    <li><a href="kits-locacao.php">KIT LOCAÇÃO</a></li>
+                                    <li><a href="kits-locacao.php">KITS LOCAÇÃO</a></li>
                                     <li><a href="produtos.php">PRODUTOS</a></li>
                                     <li><a href="blog.php">BLOG</a></li>
                                     <li><a href="anuvem.php">A NUVENS</a></li>
@@ -67,7 +67,7 @@
 						<li><a href="arquitetura.php">ARQUITETURA</a></li>
                         <li><a href="festa-pijama.php">FESTA PIJAMA</a></li>
                         <li><a href="festas.php">FESTAS</a></li>
-                        <li><a href="kits-locacao.php">KIT LOCAÇÃO</a></li>
+                        <li><a href="kits-locacao.php">KITS LOCAÇÃO</a></li>
                         <li><a href="produtos.php">PRODUTOS</a></li>
                         <li><a href="blog.php">BLOG</a></li>
                         <li><a href="anuvem.php">A NUVENS</a></li>

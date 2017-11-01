@@ -3,8 +3,8 @@ $(document).ready(function() {
   y = 0;
   var previousScroll = 0;
   var fixmeTop = 0;
-  if($('#home-casa').length>0){
-	fixmeTop = $('#home-casa').offset().top;       // get initial position of the element
+  if($('.espacamento_bottom').length>0){
+	fixmeTop = $('.espacamento_bottom').offset().top;       // get initial position of the element
   }
   // PARALAX
   $(window).scroll(function() {
@@ -28,21 +28,25 @@ $(document).ready(function() {
 
     if (currentScroll >= fixmeTop) {           // apply position: fixed if you
         $('#navArquitetura').css({                      // scroll to that element or below it
-            position: 'fixed',
-            top: '36%'
+            position: 'absolute',
+            top: fixmeTop,
+			right: '-13%'
         });
     } else {                                   // apply position: static
 		$('#navArquitetura').css({                      // scroll to that element or below it
             position: 'fixed',
-            top: ''
+            top: '',
+			right: '10%'
         });
     }
 
   });
   
-  
+  $(".mais").click(function() {
+    $(".menu").slideToggle();
+  });
 
-
+	lightbox('.lightbox');
 
 
   /**
