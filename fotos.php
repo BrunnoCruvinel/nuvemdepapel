@@ -16,18 +16,18 @@
       $fotos[] = get_field('foto_06', $idFoto);
       // $fotos[] = get_field('foto_01', $idFoto);
       // $fotos[] = get_field('foto_01', $idFoto);
-      foreach ($fotos as $fk => $f):
+      foreach ($fotos as $fk => $f): if ($f['url']!=""):
      ?>
 
         <div class="item">
             <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                    <img src="<?php echo $f['url'] ?>" class="fotos_galeria">
+                <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12" style="overflow:hidden;height:225px">
+                    <img style="height:100%" src="<?php echo $f['url'] ?>" class="fotos_galeria">
                 </div>
             </div>
         </div>
 
-    <?php endforeach ?>
+    <?php endif;endforeach ?>
 
     </div>
 </div>
