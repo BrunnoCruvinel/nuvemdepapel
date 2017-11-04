@@ -47,10 +47,10 @@
                                     <li><a href="<?php echo DOMAIN ?>arquitetura">ARQUITETURA</a></li>
                                     <li><a href="<?php echo DOMAIN ?>festa-pijama">FESTA PIJAMA</a></li>
                                     <li><a href="<?php echo DOMAIN ?>festas">FESTAS</a></li>
-                                    <li><a href="<?php echo DOMAIN ?>kits-locacao">KIT LOCAÇÃO</a></li>
+                                    <li><a href="<?php echo DOMAIN ?>kits-locacao">KITS LOCAÇÃO</a></li>
                                     <li><a href="<?php echo DOMAIN ?>produtos">PRODUTOS</a></li>
                                     <li><a href="<?php echo DOMAIN ?>blog">BLOG</a></li>
-                                    <li><a href="<?php echo DOMAIN ?>anuvem">A NUVEN</a></li>
+                                    <li><a href="<?php echo DOMAIN ?>anuvem">A NUVENS</a></li>
                                     <li><a href="<?php echo DOMAIN ?>contato">CONTATO</a></li>
                                 </ul>
                             </div>
@@ -66,7 +66,7 @@
 					<ul class="menu menu-item text-medio">
                         <li><a href="<?php echo DOMAIN ?>festa-pijama">FESTA PIJAMA</a></li>
                         <li><a href="<?php echo DOMAIN ?>festas">FESTAS</a></li>
-                        <li><a href="<?php echo DOMAIN ?>kits-locacao">KIT LOCAÇÃO</a></li>
+                        <li><a href="<?php echo DOMAIN ?>kits-locacao">KITS LOCAÇÃO</a></li>
                         <li><a href="<?php echo DOMAIN ?>produtos">PRODUTOS</a></li>
                         <li><a href="<?php echo DOMAIN ?>blog">BLOG</a></li>
                         <li><a href="<?php echo DOMAIN ?>anuvem">A NUVENS</a></li>

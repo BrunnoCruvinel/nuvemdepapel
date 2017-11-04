@@ -3,8 +3,10 @@ $(document).ready(function() {
   y = 0;
   var previousScroll = 0;
   var fixmeTop = 0;
+  var sizenav = 0;
   if($('.espacamento_bottom').length>0){
 	fixmeTop = $('.espacamento_bottom').offset().top;       // get initial position of the element
+  sizenav = $('#navArquitetura').css('height').replace('px','');
   }
   // PARALAX
   $(window).scroll(function() {
@@ -28,20 +30,20 @@ $(document).ready(function() {
 
     if (currentScroll >= fixmeTop) {           // apply position: fixed if you
         $('#navArquitetura').css({                      // scroll to that element or below it
-            position: 'absolute',
-            top: fixmeTop,
-			right: '-13%'
+            position: 'fixed',
+            top: fixmeTop-currentScroll,
+			      right: '10%'
         });
     } else {                                   // apply position: static
 		$('#navArquitetura').css({                      // scroll to that element or below it
             position: 'fixed',
             top: '',
-			right: '10%'
+			      right: '10%'
         });
     }
 
   });
-  
+
   $(".mais").click(function() {
     $(".menu").slideToggle();
   });
