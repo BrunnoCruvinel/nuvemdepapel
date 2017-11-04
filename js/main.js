@@ -3,10 +3,12 @@ $(document).ready(function() {
   y = 0;
   var previousScroll = 0;
   var fixmeTop = 0;
-  var sizenav = 0;
+  var fixmeTop = 0;
   if($('.espacamento_bottom').length>0){
-	fixmeTop = $('.espacamento_bottom').offset().top;       // get initial position of the element
-  sizenav = $('#navArquitetura').css('height').replace('px','');
+	   fixmeTop = $('.espacamento_bottom').offset().top;       // get initial position of the element
+     if($('#navArquitetura').length>0){
+      sizenav = $('#navArquitetura').css('height').replace('px','');
+     }
   }
   // PARALAX
   $(window).scroll(function() {
