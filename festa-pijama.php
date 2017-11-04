@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-md-10">
                 <div class="espacamento_bottom text-normal text-color-marrom pijama-description">
-                  <?php $fp = get_post(43); echo $fp->post_content;?>
+                  <?php $idFoto = 43; $fp = get_post($idFoto); echo $fp->post_content;?>
                 </div>
             </div>
         </div>
@@ -26,7 +26,7 @@
 				<div class="col-md-12 espacamento_kits_top"></div>
 				<div class="col-md-6 col-sm-6 col-xs-6 text-pequeno-destaque text-color-marrom">
 					<div class="col-md-12 espacamento_kits_bottom">
-						- CONVITES EXCLUSIVOS 
+						- CONVITES EXCLUSIVOS
 					</div>
 					<div class="col-md-12 espacamento_kits_bottom">
 						- ALUGUEL DE TENDAS
@@ -35,7 +35,7 @@
 						- ALUGUEL DE KIT SONO: COLCHONETE, LENÇOL, TRAVESSEIRO E MANTA
 					</div>
 					<div class="col-md-12 espacamento_kits_bottom">
-						- ALUGUEL DE KIT DECORAÇÃO: LANTERNA, FIO DE LUZ, BANDEIRINHAS, PRATO PORTA-DOCES, 
+						- ALUGUEL DE KIT DECORAÇÃO: LANTERNA, FIO DE LUZ, BANDEIRINHAS, PRATO PORTA-DOCES,
 						SUPORTE PARA CUPCAKES, SUQUEIRA
 					</div>
 					<div class="col-md-12 espacamento_kits_bottom">
@@ -47,7 +47,7 @@
 						- KIT HIGIENE: KIT NECESSAIRE, ESCOVA DE DENTES E PASTA DE DENTES (LEMBRANCIANHA!)
 					</div>
 					<div class="col-md-12 espacamento_kits_bottom">
-						- KIT PAOELARIA: TOPO DE BOLO DE PAPEL, TAGS PARA CUPCAKE, CANUDOS PERSONALIZADOS, 
+						- KIT PAOELARIA: TOPO DE BOLO DE PAPEL, TAGS PARA CUPCAKE, CANUDOS PERSONALIZADOS,
 						SINALIZADORES DE SUCOS E ALIMENTOS, FLÂMULA COM O NOME DO ANIVERSARIANTE
 					</div>
 					<div class="col-md-12 espacamento_kits_bottom">
@@ -56,7 +56,7 @@
 					<div class="col-md-12 espacamento_kits_bottom">
 						- KIT CAFÉ DA MANHÃ: TOALHA PARA BANDEJA + EMBALAGEM PARA COMIDINHAS
 					</div>
-				
+
 				</div>
             </div>
         </div>

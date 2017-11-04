@@ -7,7 +7,7 @@
   <li data-text="FOTOS" data-go="fotos"></li>
 </ul>
 
-    <?php $arq = get_post(29); echo $arq->post_content;?>
+    <?php $idFoto =  29; $arq = get_post($idFoto); echo $arq->post_content; ?>
 
     <div id="depoimentos" class="item-arquitetura">
         <div class="row text-normal text-color-marrom">
