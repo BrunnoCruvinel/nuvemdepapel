@@ -1,5 +1,5 @@
 <div class="componente-fotos-container col-md-12">
-    <div class="componente-fotos owl-carousel owl-theme">
+    <div class="componente-fotos owl-carousel owl-theme lightbox">
 
       <?php
       // ###########  POSTS  #############
@@ -14,8 +14,10 @@
       $fotos[] = get_field('foto_04', $idFoto);
       $fotos[] = get_field('foto_05', $idFoto);
       $fotos[] = get_field('foto_06', $idFoto);
-      // $fotos[] = get_field('foto_01', $idFoto);
-      // $fotos[] = get_field('foto_01', $idFoto);
+      $fotos[] = get_field('foto_07', $idFoto);
+      $fotos[] = get_field('foto_08', $idFoto);
+      $fotos[] = get_field('foto_09', $idFoto);
+      $fotos[] = get_field('foto_10', $idFoto);
       foreach ($fotos as $fk => $f): if ($f['url']!=""):
      ?>
 

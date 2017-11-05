@@ -71,6 +71,8 @@
             <?php require "depoimentos.php" ?>
         </div>
 
+        <?php $idFoto =  61; $arq = get_post($idFoto); echo $arq->post_content; ?>
+
         <div class="espacamento_top espacamento_bottom">
             <div class="titulo-grande text-color-marrom">
                 Fotos

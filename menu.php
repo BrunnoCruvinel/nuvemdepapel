@@ -50,7 +50,7 @@
                                     <li><a href="<?php echo DOMAIN ?>kits-locacao">KITS LOCAÇÃO</a></li>
                                     <li><a href="<?php echo DOMAIN ?>produtos">PRODUTOS</a></li>
                                     <li><a href="<?php echo DOMAIN ?>blog">BLOG</a></li>
-                                    <li><a href="<?php echo DOMAIN ?>anuvem">A NUVENS</a></li>
+                                    <li><a href="<?php echo DOMAIN ?>anuvens">A NUVENS</a></li>
                                     <li><a href="<?php echo DOMAIN ?>contato">CONTATO</a></li>
                                 </ul>
                             </div>
@@ -69,7 +69,7 @@
                         <li><a href="<?php echo DOMAIN ?>kits-locacao">KITS LOCAÇÃO</a></li>
                         <li><a href="<?php echo DOMAIN ?>produtos">PRODUTOS</a></li>
                         <li><a href="<?php echo DOMAIN ?>blog">BLOG</a></li>
-                        <li><a href="<?php echo DOMAIN ?>anuvem">A NUVENS</a></li>
+                        <li><a href="<?php echo DOMAIN ?>anuvens">A NUVENS</a></li>
 						            <li><a href="<?php echo DOMAIN ?>contato">CONTATO</a></li>
 					</ul>
 				</nav>

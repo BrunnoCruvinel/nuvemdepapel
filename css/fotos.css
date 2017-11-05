@@ -73,3 +73,8 @@
 .fotos-carousel{
 	margin-left: 4%;
 }
+
+.componente-fotos-container .lightbox{
+  z-index:0;
+  position: relative;
+}
