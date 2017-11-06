@@ -1,7 +1,7 @@
 <?php /* Template Name: Contato */ ?>
   <?php get_header() ?>
 
-    <section id="contato" class="bg-color-azul bg-nuvem-contato">
+    <section id="contato" class="bg-color-azul bg-nuvem-contato back_pijama">
 
       <div class="container">
         <div class="row espacamento_top espacamento_bottom">
@@ -9,7 +9,7 @@
             <div class="titulo-grande text-color-marrom">
               Contato
             </div>
-            <img id="vamos" src="<?php echo bloginfo(" template_directory ") ?>/img/vamos-conversar.png">
+            <img id="vamos" src="<?php echo bloginfo("template_directory") ?>/img/vamos-conversar.png">
           </div>
         </div>
 
