@@ -52,7 +52,7 @@
       <div class="mais-post tracejado-azul">
         <div class="row">
           <div class="col-md-12 text-center">
-            <a href="blog-post.php"><img src="<?php echo bloginfo("template_directory") ?>/img/nuvem_mais_posts.png" alt="" class="img-responsive"></a>
+            <a class="load_more" href="javascript: void(0);"><img src="<?php echo bloginfo("template_directory") ?>/img/nuvem_mais_posts.png" alt="" class="img-responsive"></a>
           </div>
         </div>
       </div>

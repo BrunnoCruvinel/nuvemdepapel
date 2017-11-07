@@ -322,3 +322,11 @@ $('#slideNuvem').owlCarousel({
     }
   });
 });
+$('#blog .post').css('display','none');
+$($('#blog .post')[0]).css('display','block');
+$($('#blog .post')[1]).css('display','block');
+
+$(".load_more").click(function(){
+  $($('#blog .post:hidden:lt(2)')).slideToggle();
+
+});
