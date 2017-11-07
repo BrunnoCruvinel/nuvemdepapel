@@ -375,6 +375,7 @@
     top: 23px;
     position: absolute;
     right: 25px;
+    cursor: pointer;
 }
 
 .dashed_lupa{

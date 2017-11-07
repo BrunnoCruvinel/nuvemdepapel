@@ -25,8 +25,10 @@
                                     </div>
                                 </div>
                                 <div id="pesquisar" class="col-md-4 col-sm-4 col-xs-6">
-                                    <input type="text" id="pesquisa" placeholder="Pesquisar...">
+                                  <form method="get" action="/" id="search_header">
+                                    <input type="text" id="pesquisa" name="s" placeholder="Pesquisar...">
 									<label class="lupa_pesquisa" style=""></label>
+                                  </form>
                                 </div>
                             </div>
                         </div>

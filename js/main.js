@@ -330,3 +330,17 @@ $(".load_more").click(function(){
   $($('#blog .post:hidden:lt(2)')).slideToggle();
 
 });
+
+$(".lupa_pesquisa_blog").click(function(){
+   if($("#search_blog").val()!=""){
+     document.getElementById('form_search_blog').submit();
+    }
+
+ });
+
+ $(".lupa_pesquisa").click(function(){
+    if($("#pesquisa").val()!=""){
+      document.getElementById('search_header').submit();
+     }
+
+  });

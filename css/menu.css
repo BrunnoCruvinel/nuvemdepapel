@@ -141,6 +141,5 @@
     position: absolute;
     right: 15px;
 	border-left: 1px solid #95d4e6;
+  cursor: pointer;
 }
-
-

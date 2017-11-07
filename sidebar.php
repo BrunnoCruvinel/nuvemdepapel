@@ -1,7 +1,7 @@
 <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
 	<div class="espacamento_bottom">
-		<form class="fundo-input">
-			<input class="input-customizado" type="text" placeholder="Pesquisar..." style="font-size:20px;">
+		<form class="fundo-input" id="form_search_blog" action="/" method="get">
+			<input  name="s" id="search_blog" class="input-customizado" type="text" placeholder="Pesquisar..." style="font-size:20px;">
 			<label class="dashed_lupa" style=""></label>
 			<label class="lupa_pesquisa_blog" style=""></label>
 		</form>

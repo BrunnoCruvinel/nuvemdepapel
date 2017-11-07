@@ -81,7 +81,7 @@
     <div class="mais-post tracejado-branco">
         <div class="row">
             <div class="col-md-12 text-center">
-                <a href=""><img class="img-responsive" src="<?php echo bloginfo("template_directory") ?>/img/nuvem_mais_posts.png" alt=""></a>
+                <a href="<?php echo DOMAIN ?>blog">"><img class="img-responsive" src="<?php echo bloginfo("template_directory") ?>/img/nuvem_mais_posts.png" alt=""></a>
             </div>
         </div>
     </div>
