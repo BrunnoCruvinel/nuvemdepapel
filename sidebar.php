@@ -79,7 +79,7 @@
 	</div>
 
 	<div class="area-facebook">
-		<div class="fb-page" data-height="300" data-href="https://www.facebook.com/lojanuvensdepapel/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+		<div class="fb-page" data-height="300" data-href="https://www.facebook.com/lojanuvensdepapel/"  data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
 			<blockquote cite="https://www.facebook.com/lojanuvensdepapel/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/lojanuvensdepapel/">Nuvens de Papel</a></blockquote>
 		</div>
 	</div>

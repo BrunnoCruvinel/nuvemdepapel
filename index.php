@@ -43,14 +43,24 @@
             <div class="col-md-7 post-blog">
                 <div class="row">
                     <div class="col-md-12">
+                      <a href="<?php the_permalink() ?>">
                         <div class="titulo-post titulo-blog text-color-branco">
+
                             <?php the_title() ?>
+
                         </div>
+                        </a>
+                        <a href="<?php the_permalink() ?>">
                         <div class="texto-post text-normal text-color-branco">
-                          <?php the_excerpt() ?>
+
+                            <?php the_excerpt() ?>
+
                         </div>
+                        </a>
                         <div class="text-center">
+                          <a href="<?php the_permalink() ?>">
                             <img class="img-responsive" src="<?php echo $thumb2 ?>">
+                          </a>
                         </div>
                     </div>
                 </div>
@@ -61,13 +71,19 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="titulo-post titulo-blog text-color-branco">
-                            <?php the_title() ?>
+                            <a href="<?php the_permalink() ?>">
+                              <?php the_title() ?>
+                            </a>
                         </div>
                         <div class="texto-post text-normal text-color-branco">
-                              <?php the_excerpt() ?>
+                              <a href="<?php the_permalink() ?>">
+                                <?php the_excerpt() ?>
+                              </a>
                         </div>
                         <div class="text-center">
-                            <img class="img-responsive" src="<?php echo $thumb2 ?>">
+                            <a href="<?php the_permalink() ?>">
+                              <img class="img-responsive" src="<?php echo $thumb2 ?>">
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -51,7 +51,9 @@
 
            <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12 text-right">
+                  <a href="http://codde.com.br" >
                     <img src="<?php echo bloginfo("template_directory") ?>/img/site_feito_codde.png" alt="">
+                  </a>
                 </div>
            </div>
        </div>

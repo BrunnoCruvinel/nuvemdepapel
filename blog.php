@@ -33,7 +33,7 @@
                 </div>
                 <div class="text-blog text-normal text-color-marrom">
                       <a href="<?php the_permalink() ?>">
-                  <?php the_content() ?>
+                  <?php the_excerpt() ?>
                 </a>
                 </div>
                     <a href="<?php the_permalink() ?>">
