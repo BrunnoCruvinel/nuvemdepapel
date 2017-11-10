@@ -39,6 +39,7 @@
 }
 #arq #componente-depoimentos.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: url("../img/carrosel_marcador_marrom.png")  no-repeat !important;
+    margin-bottom: 9px;
 }
 
 .bg-nuvem-arquitetura{

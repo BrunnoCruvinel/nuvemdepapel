@@ -516,3 +516,8 @@
 .lightbox{
 	cursor: pointer;
 }
+
+#componente-parceiros.lightbox{
+  z-index: 0;
+
+}

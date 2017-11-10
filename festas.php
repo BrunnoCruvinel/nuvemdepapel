@@ -11,7 +11,7 @@
             </div>
         </div>
 
-        <?php $f = get_post(45); echo $f->post_content;?>
+        <?php $idFoto = 45; $f = get_post(45); echo $f->post_content;?>
 
                 <div class="espacamento_top espacamento_bottom">
             			<div class="row">

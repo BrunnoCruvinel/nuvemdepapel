@@ -28,6 +28,7 @@
 
                   <?php
                       // ###########  KITS  #############
+                       $idFoto = 50;
                        $args = array( 'post_type' => 'kits', 'posts_per_page' => -1);
                        query_posts($args); $i = 0;
                        while (have_posts()) : the_post();

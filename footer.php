@@ -8,7 +8,9 @@
                                <img src="<?php echo bloginfo("template_directory") ?>/img/contato_telefone.png" alt="">
                            </div>
                            <div class="col-md-10 col-sm-10 col-xs-10 text-pequeno text-color-branco">
+                             <a href="tel:48999777040" target="_top">
                                48 99977.7040
+                             </a>
                            </div>
                        </div>
 
@@ -17,7 +19,9 @@
                                <img src="<?php echo bloginfo("template_directory") ?>/img/contato_email.png" alt="">
                            </div>
                            <div class="col-md-10 col-sm-10 col-xs-10 text-pequeno text-color-branco">
+                             <a href="mailto:NUVENSPAPEL@NUVENSDEPAPEL.COM.BR" target="_top">
                                NUVENSPAPEL@NUVENSDEPAPEL.COM.BR
+                             </a>
                            </div>
                        </div>
                    </div>
@@ -36,7 +40,14 @@
                <div class="col-md-4 col-sm-12">
                     <div class="row"></div>
                     <div class="footer-area-ebook titulo-pequeno text-color-branco text-center">
-                        Área para e-book
+
+                        <?php
+                        $page_id = 68;
+                        $page_data = get_page($page_id);
+                        echo $page_data->post_content;
+
+
+                        ?>
                     </div>
                </div>
                <div class="col-md-4 col-sm-12">
@@ -44,7 +55,7 @@
                         Instagram
                     </div>
                    <div>
-                       <img class="img-responsive" src="<?php echo bloginfo("template_directory") ?>/img/instagram.png" alt="">
+                      <?php echo do_shortcode("[jr_instagram id=\"2\"]") ?>
                    </div>
                </div>
            </div>
