@@ -28,7 +28,6 @@
             <div class="text-blog text-normal text-color-marrom">
               <?php the_content() ?>
             </div>
-            <img class="img-responsive" src="img/foto-urso.png" alt="">
             <div class="post-compartilhar">
               <div class="text-pequeno text-color-marrom post-tracejado text-right">
                 Compartilhar:
@@ -48,10 +47,28 @@
               Atenção: Os comentarios abaixo são de inteira responsabilidade de seus respectivos autores e não representam necessáriamente, a opinião da Nuvens de Papel
             </div>
 
-						<div class="">
-							<!-- DISQUS AQUI -->
+						<div class="disqus">
+              <div id="disqus_thread"></div>
+              <script>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                */
+                /*
+                var disqus_config = function () {
+                  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function() {  // DON'T EDIT BELOW THIS LINE
+                  var d = document, s = d.createElement('script');
+                  s.src = 'https://nuvensdepapel.disqus.com/embed.js';
+                  s.setAttribute('data-timestamp', +new Date());
+                  (d.head || d.body).appendChild(s);
+                })();
+              </script>
+              <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 						</div>
-
 
 
           </div>
@@ -63,7 +80,6 @@
     </div>
 
   </section>
-
 
 
 
