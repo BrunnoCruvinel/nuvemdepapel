@@ -295,8 +295,8 @@ $('#slideNuvem').owlCarousel({
    * Carousel fotos
    */
   $('.componente-parceiros').owlCarousel({
-    loop: true,
-    items: 5,
+    loop: false,
+    // items: 5,
     nav: true,
     margin: 30,
     dots: false,

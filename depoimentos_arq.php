@@ -5,7 +5,7 @@
 
   <?php
     // ###########  BANNERS  ###########
-    $depoimentos = array( 'post_type' => 'depoimentos');
+    $depoimentos = array( 'post_type' => 'depoimentos', 'meta_key' => 'pagina', 'meta_value' => $idDep);
     query_posts($depoimentos);
     while (have_posts()) : the_post();
     $src = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'full');

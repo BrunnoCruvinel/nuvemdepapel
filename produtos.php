@@ -68,7 +68,7 @@
             <div class="titulo-grande text-color-marrom">
                 Depoimentos
             </div>
-            <?php require "depoimentos.php" ?>
+            <?php $idDep=61;require "depoimentos.php" ?>
         </div>
 
         <?php $idFoto =  61; $arq = get_post($idFoto); echo $arq->post_content; ?>

@@ -7,21 +7,21 @@
   <li data-text="FOTOS" data-go="fotos"></li>
 </ul>
 
-    <?php $idFoto =  29; $arq = get_post($idFoto); echo $arq->post_content; ?>
+    <?php $idFoto =  29; $arq = get_post($idFoto); echo $arq->post_content;  ?>
 
-    <div id="depoimentos" class="item-arquitetura">
-        <div class="row text-normal text-color-marrom">
-            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                <div class="titulo-grande text-color-marrom">
-                    Depoimentos
-                </div>
-                <div id="arq">
-                  <?php require "depoimentos_arq.php" ?>
-                </div>
+     <div id="depoimentos" class="item-arquitetura">
+         <div class="row text-normal text-color-marrom">
+             <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+                 <div class="titulo-grande text-color-marrom">
+                     Depoimentos
+                 </div>
+                 <div id="arq">
+                   <?php   $idDep = 29; require "depoimentos_arq.php" ?>
+                 </div>
 
-            </div>
-        </div>
-    </div>
+             </div>
+         </div>
+     </div>
 
     <div id="fotos" class="item-arquitetura">
         <div class="row">

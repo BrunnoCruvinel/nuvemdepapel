@@ -21,7 +21,7 @@
             					</div>
             				</div>
             			</div>
-                        <?php require "depoimentos.php" ?>
+                        <?php $idDep=45;require "depoimentos.php" ?>
                 </div>
 
         <div class="espacamento_top espacamento_bottom">

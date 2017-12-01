@@ -12,6 +12,16 @@
   src: url(../fonts/fox_in_the_snow.ttf);
 }
 
+#lb-container {
+  margin-top: 0px !important;
+  height: 100%;
+  top: 0px !important;
+      margin-left: -40% !important;
+      width: 80% !important;
+}
+#lb-img{
+  height: 100%;
+}
 .text-color-verde {
   color: #ACCC52;
 }
@@ -291,6 +301,9 @@
     border-radius: 10px;
 	margin-left: -20px;
 	margin-top: 25px;
+}
+#kits-war-img img {
+  width: 100%;
 }
 #kit-war .text-normal.espacamento_bottom{
 	margin-left: -10px;

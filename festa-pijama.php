@@ -71,7 +71,7 @@
             </div>
 
 
-            <?php require "depoimentos_arq.php" ?>
+            <?php $idDep = 43;require "depoimentos_arq.php" ?>
 
         </div>
 
