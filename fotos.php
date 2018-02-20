@@ -1,3 +1,8 @@
+<style media="screen">
+  .owl-item .active{
+    margin-right:0px !important;
+  }
+</style>
 <div class="componente-fotos-container col-md-12">
     <div class="componente-fotos owl-carousel owl-theme lightbox">
 
@@ -21,9 +26,9 @@
       foreach ($fotos as $fk => $f): if ($f['url']!=""):
      ?>
 
-        <div class="item">
+        <div class="item" style="margin-right:0px !important;">
             <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12" style="overflow:hidden;height:225px">
+                <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 np" style="overflow:hidden;height:225px">
                     <img style="height:100%" src="<?php echo $f['url'] ?>" class="fotos_galeria">
                 </div>
             </div>

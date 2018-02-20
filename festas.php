@@ -13,7 +13,7 @@
 
         <?php $idFoto = 45; $f = get_post(45); echo $f->post_content;?>
 
-                <div class="espacamento_top espacamento_bottom">
+                <!-- <div class="espacamento_top espacamento_bottom">
             			<div class="row">
             				<div class="col-md-12">
             					<div class="titulo-grande text-color-marrom">
@@ -21,10 +21,10 @@
             					</div>
             				</div>
             			</div>
-                        <?php $idDep=45;require "depoimentos.php" ?>
-                </div>
+                        <?php //$idDep=45;require "depoimentos.php"?>
+                </div> -->
 
-        <div class="espacamento_top espacamento_bottom">
+        <!-- <div class="espacamento_top espacamento_bottom">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="titulo-grande text-color-marrom">
@@ -32,10 +32,10 @@
 					</div>
 				</div>
                 <div class="col-md-10 col-sm-10 col-xs-10 fotos-carousel">
-                    <?php require "parceiros.php" ?>
+                    <?php //require "parceiros.php"?>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 
     <div class="container">

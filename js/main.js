@@ -47,21 +47,18 @@ $(document).ready(function() {
   });
 
   $(".mais").click(function() {
-    $(".menu").slideToggle();
+    $("#menuMobile").slideToggle();
   });
 
 	lightbox('.lightbox');
 
 
-
-
-
   /**
    * Menus
    */
-   $('.glyphicon-menu-hamburger').on('click', function() {
-      $('#menuMobile').slideToggle();
-   });
+  //  $('.glyphicon-menu-hamburger').on('click', function() {
+  //     $('#menuMobile').slideDown();
+  //  });
 
   $(".menu-items .botao-menu-responsivo").on('click', function() {
     $(".menu-items").addClass('menu-responsive');
@@ -119,7 +116,7 @@ $('.item-arquitetura').on('mouseenter', function(){
     loop: true,
     items: 3,
     nav: true,
-    margin: 20,
+    // margin: 20,
     dots: false,
     navRewind: false,
     navText: ["<img height='22px' src='/wp-content/themes/nuvens/img/seta-branca-esquerda.png'>", "<img height='22px' src='/wp-content/themes/nuvens/img/seta-branca-direita.png'>"],
@@ -148,7 +145,7 @@ $('.item-arquitetura').on('mouseenter', function(){
     loop: true,
     items: 2,
     nav: true,
-    margin: 20,
+    // margin: 20,
     dots: false,
     navRewind: false,
 	navText: ["<img height='22px' src='/wp-content/themes/nuvens/img/seta_esquerda.png'>", "<img height='22px' src='/wp-content/themes/nuvens/img/seta_direita.png'>"],
@@ -176,7 +173,7 @@ $('.item-arquitetura').on('mouseenter', function(){
     loop: true,
     items: 2,
     nav: true,
-    margin: 20,
+    // margin: 20,
     dots: false,
     navRewind: false,
 	navText: ["<img height='22px' src='/wp-content/themes/nuvens/img/seta_esquerda_verde.png'>", "<img height='22px' src='/wp-content/themes/nuvens/img/seta_direita_verde.png'>"],
@@ -204,7 +201,7 @@ $('.item-arquitetura').on('mouseenter', function(){
     loop: true,
     items: 2,
     nav: true,
-    margin: 20,
+    // margin: 20,
     dots: false,
     navRewind: false,
 	navText: ["<img height='22px' src='/wp-content/themes/nuvens/img/seta_esquerda_azul.png'>", "<img height='22px' src='/wp-content/themes/nuvens/img/seta_direita_azul.png'>"],
@@ -233,7 +230,7 @@ $('.item-arquitetura').on('mouseenter', function(){
     loop: true,
     items: 3,
     nav: true,
-    margin: 20,
+    // margin: 20,
     dots: false,
     navRewind: false,
     navText: ["<img height='22px' src='/wp-content/themes/nuvens/img/seta_esquerda.png'>", "<img height='22px' src='/wp-content/themes/nuvens/img/seta_direita.png'>"],
@@ -261,7 +258,7 @@ $('.item-arquitetura').on('mouseenter', function(){
     loop: true,
     items: 3,
     nav: true,
-    margin: 20,
+    // margin: 20,
     dots: false,
     navRewind: false,
     navText: ["<img height='22px' src='/wp-content/themes/nuvens/img/seta_esquerda.png'>", "<img height='22px' src='/wp-content/themes/nuvens/img/seta_direita.png'>"],

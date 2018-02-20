@@ -64,12 +64,12 @@
             </div>
         </div>
 
-        <div class="espacamento_top espacamento_bottom">
+        <!-- <div class="espacamento_top espacamento_bottom">
             <div class="titulo-grande text-color-marrom">
                 Depoimentos
             </div>
-            <?php $idDep=61;require "depoimentos.php" ?>
-        </div>
+            <?php //$idDep=61;require "depoimentos.php"?>
+        </div> -->
 
         <?php $idFoto =  61; $arq = get_post($idFoto); echo $arq->post_content; ?>
 
@@ -84,16 +84,16 @@
             </div>
         </div>
 
-        <div class="espacamento_top espacamento_bottom">
+        <!-- <div class="espacamento_top espacamento_bottom">
             <div class="row">
                 <div class="titulo-grande text-color-marrom">
                     Parceiros
                 </div>
                 <div class="col-md-10 col-sm-10 col-xs-10">
-                    <?php require "parceiros.php" ?>
+                    <?php //require "parceiros.php"?>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 				<!--begin modal window-->
 		<div class="modal fade" id="myModal">

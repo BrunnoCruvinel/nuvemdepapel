@@ -37,7 +37,7 @@
                        if ($i%2==0):
                      ?>
 
-                    <div class="col-md-6 text-left">
+                    <div class="col-md-6 text-left" style="margin-top:25px;">
                       <a href="<?php the_permalink() ?>">
                           <img class="img-responsive" src="<?php echo $thum ?>">
                       </a>
@@ -45,7 +45,7 @@
 
                     <?php else: ?>
 
-                      <div class="col-md-6 text-right">
+                      <div class="col-md-6 text-right" style="margin-top:25px;">
                         <a href="<?php the_permalink() ?>">
                           <img class="img-responsive" src="<?php echo $thum ?>">
                         </a>
@@ -58,10 +58,6 @@
 
                 </div>
 
-
-
-
-
               </div>
             </div>
           </div>
@@ -70,7 +66,7 @@
             </div>
         </div>
 
-        <div class="espacamento_top espacamento_bottom">
+        <!-- <div class="espacamento_top espacamento_bottom">
           <div class="row">
             <div class="col-md-12">
               <div class="titulo-grande text-color-marrom">
@@ -78,10 +74,10 @@
               </div>
             </div>
             <div class="col-md-10 col-sm-10 col-xs-10 fotos-carousel">
-              <?php require "parceiros.php" ?>
+              <?php //require "parceiros.php"?>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <div class="espacamento_top espacamento_bottom">
         </div>

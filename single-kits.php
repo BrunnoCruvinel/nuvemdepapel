@@ -26,7 +26,7 @@
 			<?php endwhile; ?>
 		</div>
 
-		<div class="espacamento_top espacamento_bottom">
+		<!-- <div class="espacamento_top espacamento_bottom">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="titulo-grande text-color-marrom">
@@ -34,19 +34,19 @@
 					</div>
 				</div>
 			</div>
-            <?php require "depoimentos.php" ?>
+            <?php //require "depoimentos.php"?>
         </div>
 
-        <div class="espacamento_top espacamento_bottom">
+      <div class="espacamento_top espacamento_bottom">
             <div class="row">
                 <div class="titulo-grande text-color-marrom">
                     Parceiros
                 </div>
                 <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
-                    <?php require "parceiros.php" ?>
+                    <?php //require "parceiros.php"?>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 		<div id="home-casa" class="espacamento_top">
 		</div>

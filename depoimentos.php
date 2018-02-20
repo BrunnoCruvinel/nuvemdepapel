@@ -18,7 +18,7 @@
     <div class="item-slide">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                <div class="text-medio text-color-marrom">
+                <div class="text-normal text-color-marrom">
                     <?php the_content() ?>
                 </div>
                 <div class="usuario-depoimento">

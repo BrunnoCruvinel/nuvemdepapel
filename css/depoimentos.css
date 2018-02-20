@@ -6,8 +6,9 @@
     padding: 30px;
     border: 2px dashed #fff;
     border-radius: 10px;
-    width: 90%;
+    width: 85%;
     margin: 0 0 80px 0;
+    min-height: 300px;
 }
 
 .owl-stage-outer {
@@ -28,8 +29,8 @@
 
 #componente-depoimentos .usuario-depoimento {
     position: absolute;
-    right: -135px;
-    top: 30px;
+    right: -175px;
+    top: 60%;
     z-index:3;
 }
 

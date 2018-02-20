@@ -5,7 +5,7 @@
     <?php $p = get_post(6); echo $p->post_content; ?>
 
 
-
+<!--
 <section id="home-depoimentos" class="espacamento_top espacamento_bottom bg-color-verde">
     <div class="container">
         <div class="row">
@@ -15,11 +15,12 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-            <?php require "depoimentos.php"; ?>
+            <?php //require "depoimentos.php"; ?>
             </div>
         </div>
     </div>
 </section>
+-->
 
 <section id="blog" class="bg-color-rosa espacamento_top espacamento_bottom">
     <div class="container">

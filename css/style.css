@@ -7,21 +7,27 @@
 @import "parceiros.css";
 @import "produtos.css";
 @import "blog.css";
+@import "kits.css";
 @font-face {
   font-family: Foxinthesnow;
   src: url(../fonts/fox_in_the_snow.ttf);
 }
 
-#lb-container {
+@media (max-width: 768px){
+  body{
+    overflow-x: hidden;
+  }
+}
+/*#lb-container {
   margin-top: 0px !important;
   height: 100%;
   top: 0px !important;
       margin-left: -40% !important;
-      width: 80% !important;
-}
+      /*width: 80% !important;*/
+/*}
 #lb-img{
   height: 100%;
-}
+}*/
 .text-color-verde {
   color: #ACCC52;
 }
@@ -326,7 +332,7 @@
 }
 
 #produtos .componente-fotos-container{
-	border: 2px dashed #000000;
+	/*border: 2px dashed #000000;*/
 }
 
 #pijama #componente-depoimentos .item-slide{

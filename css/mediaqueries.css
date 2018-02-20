@@ -13,13 +13,13 @@
 	.titulo-grande{
 		font-size: 45px;
 	}
-	
+
 	#componente-depoimentos .usuario-depoimento{
 		right: -65px;
 		left: 145px;
 		top: 147px;
 	}
-	
+
 	#arq #componente-depoimentos .usuario-depoimento{
 		right: -55px;
 		left: 70px;
@@ -37,11 +37,11 @@
 		width: 55px;
 		height: 55px;
 	}
-	
+
 	.titulo-pequeno{
 		font-size: 15px;
 	}
-	
+
 	.text-medio{
 		font-size: 20px;
 	}
@@ -50,136 +50,137 @@
 		max-width: 100%;
 		height: auto;
 	}
-	
+
 	.titulo-blog{
 		font-size: 20px;
 	}
-	
+
 	.text-normal{
 		font-size: 14px;
 	}
 	.text-pequeno{
 		font-size: 20px;
 	}
-	
+
 	#destaque-fotos li img{
 		margin-top: 290px;
 	}
-	
+
 	.componente-fotos.owl-theme .owl-nav .owl-next{
 		right: -15%;
 	}
-	
+
 	.componente-fotos.owl-theme .owl-nav .owl-prev{
 		left: -15%;
 	}
-	
+
 	#arquitetura .componente-fotos.owl-theme .owl-nav .owl-next{
 		right: -20%;
 	}
-	
+
 	#arquitetura .componente-fotos.owl-theme .owl-nav .owl-prev{
 		left: -20%;
 	}
-	
+
 	#img-eu-quero img {
 		margin-left: 0px;
 	}
-	
+
 	.nossa_festa_pijama .espacamento_kits_bottom{
 		font-size: 12px;
 	}
-	
+
 	.nossa_festa_pijama {
 		background-size: 102% 100%;
-		height: 280px;
+		height: 430px;
+		padding-top: 50px;
 	}
-	
+
 	.espacamento_kits_top {
 		padding-top: 90px;
 	}
-	
+
 	.nossa_festa_pijama .text-pequeno-destaque{
 		padding: 0px;
 	}
-	
+
 	.espacamento_kits_bottom{
 		padding-bottom: 5px;
 	}
-	
+
 	.nuvem-azul-arquitetura{
 		font-size: 40px;
 	}
-	
+
 	.text-pequeno-destaque{
 		font-size: 20px;
 	}
-	
+
 	#navArquitetura li{
 		min-height: 25px;
 	}
-	
+
 	.festas .componente-fotos.owl-theme .owl-nav .owl-prev{
 		left: -15%;
 	}
-	
+
 	.festas .componente-fotos.owl-theme .owl-nav .owl-next{
 		right: -15%;
 	}
-	
+
 	.modal-dialog{
 		width: 95%;
 	}
-	
+
 	.titulo-medio{
 		font-size: 30px;
 	}
-	
+
 	#myGallery .espacamento_top_pijama {
 		padding-top: 15px;
 	}
-	
+
 	#myGallery .img-responsive{
 		max-width: 170%;
 		margin-left: -30%;
 		margin-top: 6%;
 	}
-	
+
 	.text_area_margin{
 		margin-top: 40px;
 	}
-	
+
 	.titulo-medio-pequeno{
 		font-size: 22px;
 	}
-	
+
 	.opcoes-comentario small{
 		margin-right: 0px;
 	}
-	
+
 	.blog-post-comentar{
 		margin-bottom: 30px;
 	}
-	
+
 	.menu-pesquisa{
 		display: none;
 	}
-	
+
 	.menu-items.menu-destaque{
 		display: none;
 	}
-	
+
 	.logo-menu{
 		display: block;
 	}
-	
+
 	.mais .glyphicon-menu-hamburger{
-		
+
 		font-size: 40px;
 		margin-top: 65px;
 		color: #F2999F;
 	}
-	
+
 	#menu .menu a{
 		text-decoration: none;
 		color: #F2999F;
@@ -189,7 +190,7 @@
 		text-align: center;
 		font-size: 30px;
 	}
-	
+
 	.margin_kits_entrega{
 		margin-left: 0px;
 	}
@@ -210,4 +211,3 @@
         text-align: center;
     }
 }
-
